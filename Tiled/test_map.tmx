@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="40" tileheight="40" nextobjectid="34">
+ <tileset firstgid="1" name="ground1" tilewidth="40" tileheight="40" spacing="1" tilecount="28" columns="7">
+  <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 1/TileSet_Spritesheet_v2.png" width="286" height="163"/>
+  <tile id="1">
+   <objectgroup draworder="index"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="29" name="ground2" tilewidth="40" tileheight="40" spacing="1" tilecount="21" columns="7">
+  <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_Spritesheet.png" width="286" height="122"/>
+ </tileset>
+ <tileset firstgid="50" name="Environment" tilewidth="72" tileheight="75" tilecount="52" columns="0">
+  <tile id="0">
+   <image width="14" height="11" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Animals/Crow_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="15" height="11" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Animals/Crow_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="22" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="27" height="29" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01_destroyed.png"/>
+  </tile>
+  <tile id="4">
+   <image width="22" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01_mossy.png"/>
+  </tile>
+  <tile id="5">
+   <image width="45" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_01_green.png"/>
+  </tile>
+  <tile id="6">
+   <image width="45" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_01_yellow.png"/>
+  </tile>
+  <tile id="7">
+   <image width="49" height="54" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_02_green.png"/>
+  </tile>
+  <tile id="8">
+   <image width="49" height="54" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_02_yellow.png"/>
+  </tile>
+  <tile id="11">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_01.png"/>
+  </tile>
+  <tile id="12">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_01_mossy.png"/>
+  </tile>
+  <tile id="13">
+   <image width="35" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_02.png"/>
+  </tile>
+  <tile id="14">
+   <image width="35" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_02_mossy.png"/>
+  </tile>
+  <tile id="15">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_03.png"/>
+  </tile>
+  <tile id="16">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_03_mossy.png"/>
+  </tile>
+  <tile id="17">
+   <image width="34" height="38" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_destroyed_01.png"/>
+  </tile>
+  <tile id="18">
+   <image width="51" height="27" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Leaves_01.png"/>
+  </tile>
+  <tile id="19">
+   <image width="40" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Leaves_02.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Mud__01_v1.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Mud_01_v2.png"/>
+  </tile>
+  <tile id="22">
+   <image width="44" height="23" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_01.png"/>
+  </tile>
+  <tile id="23">
+   <image width="29" height="16" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_02.png"/>
+  </tile>
+  <tile id="24">
+   <image width="45" height="15" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_03.png"/>
+  </tile>
+  <tile id="25">
+   <image width="40" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Rocks_01_v1.png"/>
+  </tile>
+  <tile id="26">
+   <image width="40" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Rocks_01_v2.png"/>
+  </tile>
+  <tile id="27">
+   <image width="5" height="45" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_01.png"/>
+  </tile>
+  <tile id="28">
+   <image width="5" height="45" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_01_mossy.png"/>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-120"/>
+   </properties>
+   <image width="5" height="74" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_02.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="45" width="5" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <image width="5" height="74" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_02_mossy.png"/>
+  </tile>
+  <tile id="31">
+   <image width="5" height="75" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_03.png"/>
+  </tile>
+  <tile id="32">
+   <image width="5" height="75" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_03_mossy.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="45" width="5" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <image width="5" height="71" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_04.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="43" width="5" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <image width="5" height="71" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_04_mossy.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="43" width="5" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <image width="5" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_05.png"/>
+  </tile>
+  <tile id="36">
+   <image width="5" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_05_mossy.png"/>
+  </tile>
+  <tile id="37">
+   <image width="24" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_gate_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="22" width="24" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="38">
+   <image width="23" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_gate_01_mossy.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="22" width="23" height="5.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="39">
+   <image width="30" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence farm/Fence_farm_01.png"/>
+  </tile>
+  <tile id="40">
+   <image width="54" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence farm/Fence_farm_gate_01.png"/>
+  </tile>
+  <tile id="41">
+   <image width="25" height="26" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Flower_01.png"/>
+  </tile>
+  <tile id="42">
+   <image width="34" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Flowers_01.png"/>
+  </tile>
+  <tile id="43">
+   <image width="57" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_01.png"/>
+  </tile>
+  <tile id="44">
+   <image width="26" height="30" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_02.png"/>
+  </tile>
+  <tile id="45">
+   <image width="36" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_03.png"/>
+  </tile>
+  <tile id="46">
+   <image width="28" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_04.png"/>
+  </tile>
+  <tile id="47">
+   <image width="40" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_05.png"/>
+  </tile>
+  <tile id="48">
+   <image width="72" height="55" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_01.png"/>
+  </tile>
+  <tile id="49">
+   <image width="22" height="43" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_02.png"/>
+  </tile>
+  <tile id="50">
+   <image width="46" height="31" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_03.png"/>
+  </tile>
+  <tile id="51">
+   <image width="35" height="28" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_04.png"/>
+  </tile>
+  <tile id="52">
+   <image width="24" height="20" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_05.png"/>
+  </tile>
+  <tile id="53">
+   <image width="43" height="54" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Cages/Cage_small_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="27">
+     <polygon points="0,6.75 16.125,13.5 43,0 26.875,-6.75"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="104" name="Trees" tilewidth="204" tileheight="304" tilecount="10" columns="0">
+  <tile id="0">
+   <image width="44" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Broken_tree_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="27" height="50" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Broken_tree_02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="204" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_green.png"/>
+  </tile>
+  <tile id="3">
+   <image width="184" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_green_without_leaves.png"/>
+   <objectgroup draworder="index">
+    <object id="1" name="Trigger" type="TreeFadeTrigger" x="-10.5" y="4" width="202" height="163.5"/>
+    <object id="2" x="53.2727" y="166.909">
+     <polygon points="0,0 55.0909,-1.45455 64.1818,5.27273 45.6364,11.4545 34.7273,19.8182 16,19.6364 10.3636,8.72727 -13.2727,5.63636"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <image width="204" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_yellow.png"/>
+  </tile>
+  <tile id="5">
+   <image width="184" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_yellow_without_leaves.png"/>
+   <objectgroup draworder="index">
+    <object id="3" x="53" y="165.75">
+     <polygon points="0.5,1.5 56.125,1 49.25,13 34.75,21.25 14.375,21 9.75,10.25 -8.125,6.125"/>
+    </object>
+    <object id="4" type="TreeFadeTrigger" x="-10.5" y="4" width="202" height="163.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <image width="185" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_green.png"/>
+  </tile>
+  <tile id="7">
+   <image width="21" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_green_without_leaves.png"/>
+  </tile>
+  <tile id="8">
+   <image width="185" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_yellow.png"/>
+  </tile>
+  <tile id="9">
+   <image width="21" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_yellow_without_leaves.png"/>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="32" height="24">
+  <properties>
+   <property name="unity:sortingLayerName" value="Tiles"/>
+  </properties>
+  <data encoding="csv">
+10,11,12,27,12,25,6,7,3,5,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+7,18,6,25,3,12,7,25,17,19,25,6,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+4,6,14,10,11,28,6,14,7,6,6,27,28,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+18,7,20,7,17,12,7,21,10,12,25,6,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+7,25,1,6,25,14,25,7,6,6,7,14,6,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+7,6,22,9,2,13,28,6,7,25,10,13,12,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+6,3,5,6,7,8,7,6,3,28,6,21,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+3,11,11,5,6,20,6,10,11,12,7,7,6,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+17,11,11,19,7,22,9,28,18,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+7,17,19,7,25,25,6,7,25,25,27,28,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25
+</data>
+ </layer>
+ <objectgroup draworder="index" name="Decals">
+  <properties>
+   <property name="unity:sortingLayerName" value="Decals"/>
+  </properties>
+  <object id="1" gid="72" x="237.5" y="205" width="44" height="23"/>
+  <object id="16" gid="3221225544" x="81.5833" y="115.13" width="44" height="23"/>
+  <object id="17" gid="1073741892" x="46.8333" y="112.375" width="51" height="27"/>
+  <object id="18" gid="69" x="16.0833" y="108.125" width="40" height="21"/>
+  <object id="31" gid="73" x="127.5" y="140" width="29" height="16"/>
+ </objectgroup>
+ <objectgroup draworder="index" name="Objects">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="2" gid="92" x="144" y="198.5" width="34" height="32"/>
+  <object id="3" gid="2147483740" x="166" y="205" width="34" height="32"/>
+  <object id="4" gid="83" x="2.5" y="104.5" width="5" height="71">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-115"/>
+   </properties>
+  </object>
+  <object id="5" gid="94" x="2.5" y="90" width="26" height="30"/>
+  <object id="8" gid="2147483751" x="38.6667" y="109.167" width="43" height="54"/>
+  <object id="10" gid="85" x="76.1667" y="113.167" width="5" height="44"/>
+  <object id="11" gid="83" x="82.4167" y="117.917" width="5" height="71">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-120"/>
+   </properties>
+  </object>
+  <object id="32" name="Tree" gid="2147483755" x="62.5" y="210" width="184" height="304">
+   <properties>
+    <property name="isTree" type="bool" value="true"/>
+    <property name="unity:sortingOrder" type="int" value="-415"/>
+   </properties>
+  </object>
+  <object id="12" gid="87" x="88.4167" y="111.167" width="24" height="44"/>
+  <object id="25" gid="2147483726" x="128.667" y="105.667" width="5" height="45"/>
+  <object id="26" gid="77" x="114.167" y="109.167" width="5" height="45"/>
+  <object id="27" gid="79" x="121.167" y="115.917" width="5" height="74">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-120"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

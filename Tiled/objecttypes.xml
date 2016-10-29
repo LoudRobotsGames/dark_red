@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="TreeFadeTrigger" color="#00ff00">
+  <property name="foo" type="string" default="bar"/>
+  <property name="unity:isTrigger" type="string" default="true"/>
+ </objecttype>
+</objecttypes>

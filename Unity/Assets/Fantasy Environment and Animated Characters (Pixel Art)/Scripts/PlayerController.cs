@@ -6,12 +6,16 @@ public class PlayerController : MonoBehaviour
 
 	private Animator animator;
 	private Rigidbody2D rigidbody2D;
+    private Vector3 _lastPosition;
 	
 	public float speed = 3.5f; //speed of the player
+    public float threshold = 0.1f;
+    public Vector2 velocity;
 	
 	private bool facingRight = true; //for Flip the player
 	private bool blockState = false; //for blocking movement of the player
 	private bool attack1 = false; //to identify player's attack
+    private Vector2 zero = new Vector2(0, 0);
 
 //if you need to seek a GameController script uncomment the code below and code in "void Start()"
 	//private GameController gameController;
@@ -21,6 +25,8 @@ public class PlayerController : MonoBehaviour
 	{
 		animator = GetComponent<Animator>();
 		rigidbody2D = GetComponent<Rigidbody2D>();
+
+        _lastPosition = transform.position;
 
 //		//Seek GameController
 //		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
@@ -47,14 +53,28 @@ public class PlayerController : MonoBehaviour
 		if (blockState == false) 
 			rigidbody2D.velocity = movement * speed;
 		else
-			rigidbody2D.velocity = movement * 0;
+			rigidbody2D.velocity = zero;
+
+        Vector3 pos = transform.position;
+        float move = Vector3.Distance(_lastPosition, pos);
 
 		//Player Run
-		if (movement != Vector2.zero)
+		if (move > threshold)
 			animator.SetBool("Run", true);
-		else 
-			animator.SetBool("Run", false);
+		else
+        {
+            animator.SetBool("Run", false);
+        }
 
+        if (rigidbody2D.velocity.sqrMagnitude < (threshold * threshold) * 5f)
+        {
+            rigidbody2D.velocity = zero;
+            animator.SetBool("Run", false);
+        }
+
+        velocity = rigidbody2D.velocity;
+
+        _lastPosition = pos;
 		//Player Flip Call
 		if (moveHorizontal > 0 && !facingRight)
 			Flip ();

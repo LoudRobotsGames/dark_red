@@ -28,7 +28,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -38,7 +38,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -58,19 +58,23 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 40
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: TileSet_Spritesheet_0
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -78,9 +82,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 41
@@ -88,9 +95,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 82
@@ -98,9 +108,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 123
@@ -108,9 +121,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 164
@@ -118,9 +134,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 0
@@ -128,9 +147,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 41
@@ -138,9 +160,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_9
       rect:
         serializedVersion: 2
         x: 82
@@ -148,9 +173,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_10
       rect:
         serializedVersion: 2
         x: 123
@@ -158,9 +186,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_11
       rect:
         serializedVersion: 2
         x: 164
@@ -168,9 +199,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 205
@@ -178,9 +212,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 246
@@ -188,9 +225,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_12
       rect:
         serializedVersion: 2
         x: 205
@@ -198,9 +238,12 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_Spritesheet_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileSet_Spritesheet_13
       rect:
         serializedVersion: 2
         x: 246
@@ -208,8 +251,11 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
