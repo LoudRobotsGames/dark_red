@@ -33,12 +33,17 @@ public partial class Game : MonoBehaviour
         Win,
         Loss
     }
+    public delegate void UpdateState();
     #endregion
 
+    [Header("Default")]
     public DialogBox dialogBox;
+    public Image fadeCurtain;
     public BackgroundAmbienceController _ambienceController;
+    public PlayerController _playerController;
 
     private State _currentState = State.Intro;
+    private UpdateState _updateStateCallback;
 
     public void Start()
     {
@@ -55,6 +60,7 @@ public partial class Game : MonoBehaviour
                 OnEnterIntro();
                 break;
             case State.Exploration:
+                OnEnterExploration();
                 break;
             case State.Dialog:
                 OnEnterDialog();
@@ -64,7 +70,12 @@ public partial class Game : MonoBehaviour
 
     private void ExitState(State state)
     {
-
+        switch(state)
+        {
+            case State.Intro:
+                OnExitIntro();
+                break;
+        }
     }
 
     private bool CanEnterState(State state)

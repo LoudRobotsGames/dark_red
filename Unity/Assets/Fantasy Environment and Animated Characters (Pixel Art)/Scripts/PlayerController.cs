@@ -10,34 +10,30 @@ public class PlayerController : MonoBehaviour
 	
 	public float speed = 3.5f; //speed of the player
     public float threshold = 0.1f;
-    public Vector2 velocity;
+    public BoxCollider2D attackTrigger;
 	
 	private bool facingRight = true; //for Flip the player
 	private bool blockState = false; //for blocking movement of the player
 	private bool attack1 = false; //to identify player's attack
     private Vector2 zero = new Vector2(0, 0);
+    private bool inputIsBlocked = false;
+    
+    public void BlockInput()
+    {
+        inputIsBlocked = true;
+    }
 
-//if you need to seek a GameController script uncomment the code below and code in "void Start()"
-	//private GameController gameController;
+    public void ReleaseInput()
+    {
+        inputIsBlocked = false;
+    }
 
-
-	void Start () 
+    void Start () 
 	{
 		animator = GetComponent<Animator>();
 		rigidbody2D = GetComponent<Rigidbody2D>();
 
         _lastPosition = transform.position;
-
-//		//Seek GameController
-//		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
-//		if (gameControllerObject != null)
-//		{
-//			gameController = gameControllerObject.GetComponent <GameController>();
-//		}
-//		if (gameController == null)
-//		{
-//			Debug.Log ("Cannot find 'GameController' script");
-//		}
 	}
 	
 //_______________________________________________________________
@@ -47,7 +43,11 @@ public class PlayerController : MonoBehaviour
 	{
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
-		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
+        Vector2 movement = zero;
+        if (!inputIsBlocked)
+        {
+            movement = new Vector2(moveHorizontal, moveVertical);
+        }
 
 		//Player Movement
 		if (blockState == false) 
@@ -58,10 +58,12 @@ public class PlayerController : MonoBehaviour
         Vector3 pos = transform.position;
         float move = Vector3.Distance(_lastPosition, pos);
 
-		//Player Run
-		if (move > threshold)
-			animator.SetBool("Run", true);
-		else
+        //Player Run
+        if (move > threshold)
+        {
+            animator.SetBool("Run", true);
+        }
+        else
         {
             animator.SetBool("Run", false);
         }
@@ -72,13 +74,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Run", false);
         }
 
-        velocity = rigidbody2D.velocity;
-
         _lastPosition = pos;
 		//Player Flip Call
-		if (moveHorizontal > 0 && !facingRight)
+		if (movement.x > 0 && !facingRight)
 			Flip ();
-		else if (moveHorizontal < 0 && facingRight)
+		else if (movement.x < 0 && facingRight)
 			Flip ();
 	}
 //_______________________________________________________________
@@ -86,17 +86,23 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		//Player Attack1 Call
-		if (Input.GetButtonDown ("Fire1") && attack1 == false && animator.GetBool ("Death_bool") == false)
-			StartCoroutine("Attack1");
+        if (!inputIsBlocked)
+        {
+            //Player Attack1 Call
+            if (Input.GetButtonDown("Fire1") && attack1 == false && animator.GetBool("Death_bool") == false)
+            {
+                StopCoroutine("Attack1");
+                StartCoroutine("Attack1");
+            }
 
-		//Player Hit Call
-		if (Input.GetKeyDown (KeyCode.H) && animator.GetBool ("Death_bool") == false)
-			StartCoroutine("Hit");
+            //Player Hit Call
+            if (Input.GetKeyDown(KeyCode.H) && animator.GetBool("Death_bool") == false)
+                StartCoroutine("Hit");
 
-		//Player Death Call
-		if (Input.GetKeyDown (KeyCode.G) && animator.GetBool ("Death_bool") == false)
-			StartCoroutine("Death");
+            //Player Death Call
+            if (Input.GetKeyDown(KeyCode.G) && animator.GetBool("Death_bool") == false)
+                StartCoroutine("Death");
+        }
 	}
 //_______________________________________________________________
 //_______________________________________________________________
@@ -129,9 +135,11 @@ public class PlayerController : MonoBehaviour
 			yield return null;
 			attack1 = false;
 			yield return new WaitForSeconds (0.4f);
+            // Wait another five seconds before clearing combat idle
+            yield return new WaitForSeconds(5f);
+            animator.SetBool("Idle_in_Fight", false);
 		}
 	}
-	
 
 	//Player Death
 	IEnumerator Death()
@@ -142,7 +150,6 @@ public class PlayerController : MonoBehaviour
 		yield return null;
 	}
 
-
 	//Player Hit
 	IEnumerator Hit()
 	{
@@ -150,7 +157,6 @@ public class PlayerController : MonoBehaviour
 		StartCoroutine ("BlockstateTimer", 2.4f);
 		yield return null;
 	}
-
 
 	//Timer which blocking movement of the player
 	IEnumerator BlockstateTimer(float timer)
@@ -167,4 +173,24 @@ public class PlayerController : MonoBehaviour
 		if(animator.GetBool ("Death_bool") == false)
 			blockState = false;
 	}
+
+    public void OnAttack()
+    {
+        Bounds bounds = attackTrigger.bounds;
+        int barrels = LayerMask.NameToLayer("Barrels");
+        int crates = LayerMask.NameToLayer("Crates");
+        int enemies = LayerMask.NameToLayer("Enemies");
+        int mask = 1 << barrels;
+        mask |= 1 << crates;
+        mask |= 1 << enemies;
+        Collider2D collider = Physics2D.OverlapBox(bounds.center, bounds.size, 0, mask);
+        if (collider != null)
+        {
+            IAttackable attackable = collider.gameObject.GetComponent<IAttackable>();
+            if (attackable != null)
+            {
+                attackable.Attack();
+            }
+        }
+    }
 }

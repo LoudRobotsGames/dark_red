@@ -17,14 +17,19 @@ public class DialogBox : MonoBehaviour
     private Text textPrefab;
     [SerializeField]
     private Button buttonPrefab;
-    
+
+    public delegate void StoryCompleteCallback();
+
+    public StoryCompleteCallback finishedCallback;
+
     // Use this for initialization
-    void Start () {
-        StartStory();
+    void Start ()
+    {
     }
 
-    void StartStory()
+    public void StartStory(TextAsset inkAsset)
     {
+        inkJSONAsset = inkAsset;
         story = new Story(inkJSONAsset.text);
         RefreshView();
     }
@@ -52,10 +57,18 @@ public class DialogBox : MonoBehaviour
         }
         else
         {
-            Button choice = CreateChoiceView("End of story.\nRestart?");
+            Button choice = CreateChoiceView("Done.");
             choice.onClick.AddListener(delegate {
-                StartStory();
+                OnFinishedStory();
             });
+        }
+    }
+
+    void OnFinishedStory()
+    {
+        if (finishedCallback != null)
+        {
+            finishedCallback();
         }
     }
 
