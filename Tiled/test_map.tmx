@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="40" tileheight="40" nextobjectid="34">
- <tileset firstgid="1" name="ground1" tilewidth="40" tileheight="40" spacing="1" tilecount="28" columns="7">
+ <tileset firstgid="1" name="ground1" tilewidth="40" tileheight="40" spacing="1" tilecount="42" columns="7">
   <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 1/TileSet_Spritesheet_v2.png" width="286" height="163"/>
   <tile id="1">
    <objectgroup draworder="index"/>
   </tile>
  </tileset>
- <tileset firstgid="29" name="ground2" tilewidth="40" tileheight="40" spacing="1" tilecount="21" columns="7">
+ <tileset firstgid="43" name="ground2" tilewidth="40" tileheight="40" spacing="1" tilecount="21" columns="7">
   <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_Spritesheet.png" width="286" height="122"/>
  </tileset>
- <tileset firstgid="50" name="Environment" tilewidth="72" tileheight="75" tilecount="52" columns="0">
+ <tileset firstgid="64" name="Environment" tilewidth="72" tileheight="75" tilecount="52" columns="0">
   <tile id="0">
    <image width="14" height="11" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Animals/Crow_01.png"/>
   </tile>
@@ -193,7 +193,7 @@
    </objectgroup>
   </tile>
  </tileset>
- <tileset firstgid="104" name="Trees" tilewidth="204" tileheight="304" tilecount="10" columns="0">
+ <tileset firstgid="118" name="Trees" tilewidth="204" tileheight="304" tilecount="10" columns="0">
   <tile id="0">
    <image width="44" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Broken_tree_01.png"/>
   </tile>
@@ -247,7 +247,7 @@
 4,6,14,10,11,28,6,14,7,6,6,27,28,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
 18,7,20,7,17,12,7,21,10,12,25,6,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
 7,25,1,6,25,14,25,7,6,6,7,14,6,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
-7,6,22,9,2,13,28,6,7,25,10,13,12,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+7,10,11,12,2,13,28,6,7,25,10,13,12,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
 6,3,5,6,7,8,7,6,3,28,6,21,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
 3,11,11,5,6,20,6,10,11,12,7,7,6,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
 17,11,11,19,7,22,9,28,18,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
@@ -272,41 +272,41 @@
   <properties>
    <property name="unity:sortingLayerName" value="Decals"/>
   </properties>
-  <object id="1" gid="72" x="237.5" y="205" width="44" height="23"/>
-  <object id="16" gid="3221225544" x="81.5833" y="115.13" width="44" height="23"/>
-  <object id="17" gid="1073741892" x="46.8333" y="112.375" width="51" height="27"/>
-  <object id="18" gid="69" x="16.0833" y="108.125" width="40" height="21"/>
-  <object id="31" gid="73" x="127.5" y="140" width="29" height="16"/>
+  <object id="1" gid="86" x="237.5" y="205" width="44" height="23"/>
+  <object id="16" gid="3221225558" x="81.5833" y="115.13" width="44" height="23"/>
+  <object id="17" gid="1073741906" x="46.8333" y="112.375" width="51" height="27"/>
+  <object id="18" gid="83" x="16.0833" y="108.125" width="40" height="21"/>
+  <object id="31" gid="87" x="127.5" y="140" width="29" height="16"/>
  </objectgroup>
  <objectgroup draworder="index" name="Objects">
   <properties>
    <property name="unity:sortingLayerName" value="Objects"/>
   </properties>
-  <object id="2" gid="92" x="144" y="198.5" width="34" height="32"/>
-  <object id="3" gid="2147483740" x="166" y="205" width="34" height="32"/>
-  <object id="4" gid="83" x="2.5" y="104.5" width="5" height="71">
+  <object id="2" gid="106" x="144" y="198.5" width="34" height="32"/>
+  <object id="3" gid="2147483754" x="166" y="205" width="34" height="32"/>
+  <object id="4" gid="97" x="2.5" y="104.5" width="5" height="71">
    <properties>
     <property name="unity:sortingOrder" type="int" value="-115"/>
    </properties>
   </object>
-  <object id="5" gid="94" x="2.5" y="90" width="26" height="30"/>
-  <object id="8" gid="2147483751" x="38.6667" y="109.167" width="43" height="54"/>
-  <object id="10" gid="85" x="76.1667" y="113.167" width="5" height="44"/>
-  <object id="11" gid="83" x="82.4167" y="117.917" width="5" height="71">
+  <object id="5" gid="108" x="2.5" y="90" width="26" height="30"/>
+  <object id="8" gid="2147483765" x="38.6667" y="109.167" width="43" height="54"/>
+  <object id="10" gid="99" x="76.1667" y="113.167" width="5" height="44"/>
+  <object id="11" gid="97" x="82.4167" y="117.917" width="5" height="71">
    <properties>
     <property name="unity:sortingOrder" type="int" value="-120"/>
    </properties>
   </object>
-  <object id="32" name="Tree" gid="2147483755" x="62.5" y="210" width="184" height="304">
+  <object id="32" name="Tree" gid="2147483769" x="56.5428" y="207.197" width="184" height="304">
    <properties>
     <property name="isTree" type="bool" value="true"/>
     <property name="unity:sortingOrder" type="int" value="-415"/>
    </properties>
   </object>
-  <object id="12" gid="87" x="88.4167" y="111.167" width="24" height="44"/>
-  <object id="25" gid="2147483726" x="128.667" y="105.667" width="5" height="45"/>
-  <object id="26" gid="77" x="114.167" y="109.167" width="5" height="45"/>
-  <object id="27" gid="79" x="121.167" y="115.917" width="5" height="74">
+  <object id="12" gid="101" x="88.4167" y="111.167" width="24" height="44"/>
+  <object id="25" gid="2147483740" x="128.667" y="105.667" width="5" height="45"/>
+  <object id="26" gid="91" x="114.167" y="109.167" width="5" height="45"/>
+  <object id="27" gid="93" x="121.167" y="115.917" width="5" height="74">
    <properties>
     <property name="unity:sortingOrder" type="int" value="-120"/>
    </properties>

@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="48" tilewidth="40" tileheight="40" nextobjectid="1070">
+ <tileset firstgid="1" name="Ground" tilewidth="40" tileheight="40" spacing="1" tilecount="28" columns="7">
+  <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 1/TileSet_Spritesheet_v2.png" width="286" height="163"/>
+ </tileset>
+ <tileset firstgid="29" name="Ground_02" tilewidth="40" tileheight="40" spacing="1" tilecount="21" columns="7">
+  <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_Spritesheet.png" width="286" height="122"/>
+ </tileset>
+ <tileset firstgid="50" name="Building" tilewidth="44" tileheight="80" tilecount="93" columns="0">
+  <tile id="0">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_03.png"/>
+  </tile>
+  <tile id="3">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_04.png"/>
+  </tile>
+  <tile id="4">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_05.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_06.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_07.png"/>
+  </tile>
+  <tile id="7">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_08.png"/>
+  </tile>
+  <tile id="8">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_09.png"/>
+  </tile>
+  <tile id="9">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_18.png"/>
+  </tile>
+  <tile id="18">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_19.png"/>
+  </tile>
+  <tile id="19">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_20.png"/>
+  </tile>
+  <tile id="20">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_21.png"/>
+  </tile>
+  <tile id="21">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_22.png"/>
+  </tile>
+  <tile id="22">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_23.png"/>
+  </tile>
+  <tile id="23">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_24.png"/>
+  </tile>
+  <tile id="24">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_25.png"/>
+  </tile>
+  <tile id="25">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_26.png"/>
+  </tile>
+  <tile id="26">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_27.png"/>
+  </tile>
+  <tile id="27">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_28.png"/>
+  </tile>
+  <tile id="28">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_29.png"/>
+  </tile>
+  <tile id="29">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_30.png"/>
+  </tile>
+  <tile id="30">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_31.png"/>
+  </tile>
+  <tile id="31">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_32.png"/>
+  </tile>
+  <tile id="32">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_33.png"/>
+  </tile>
+  <tile id="33">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_34.png"/>
+  </tile>
+  <tile id="34">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_35.png"/>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="unity:sortingOrderName" value="Tiles"/>
+   </properties>
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_36.png"/>
+  </tile>
+  <tile id="36">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_37.png"/>
+  </tile>
+  <tile id="37">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_38.png"/>
+  </tile>
+  <tile id="38">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_39.png"/>
+  </tile>
+  <tile id="39">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_40.png"/>
+  </tile>
+  <tile id="40">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_41.png"/>
+  </tile>
+  <tile id="41">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_42.png"/>
+  </tile>
+  <tile id="42">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_43.png"/>
+  </tile>
+  <tile id="43">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_44.png"/>
+  </tile>
+  <tile id="44">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_45.png"/>
+  </tile>
+  <tile id="45">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_46.png"/>
+  </tile>
+  <tile id="46">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_47.png"/>
+  </tile>
+  <tile id="47">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_48.png"/>
+  </tile>
+  <tile id="48">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_49.png"/>
+  </tile>
+  <tile id="49">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_50.png"/>
+  </tile>
+  <tile id="50">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_51.png"/>
+  </tile>
+  <tile id="51">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_52.png"/>
+  </tile>
+  <tile id="52">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_53.png"/>
+  </tile>
+  <tile id="53">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_54.png"/>
+  </tile>
+  <tile id="54">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_55.png"/>
+  </tile>
+  <tile id="55">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_56.png"/>
+  </tile>
+  <tile id="56">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_57.png"/>
+  </tile>
+  <tile id="57">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_58.png"/>
+  </tile>
+  <tile id="58">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_59.png"/>
+  </tile>
+  <tile id="59">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_60.png"/>
+  </tile>
+  <tile id="60">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_61.png"/>
+  </tile>
+  <tile id="61">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_62.png"/>
+  </tile>
+  <tile id="62">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_63.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="40" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="63">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_64.png"/>
+  </tile>
+  <tile id="64">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_65.png"/>
+  </tile>
+  <tile id="65">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_66.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="40" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_67.png"/>
+  </tile>
+  <tile id="67">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_68.png"/>
+  </tile>
+  <tile id="68">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_69.png"/>
+  </tile>
+  <tile id="69">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_70.png"/>
+  </tile>
+  <tile id="70">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_71.png"/>
+  </tile>
+  <tile id="71">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_72.png"/>
+  </tile>
+  <tile id="72">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_73.png"/>
+  </tile>
+  <tile id="73">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_74.png"/>
+  </tile>
+  <tile id="74">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_75.png"/>
+  </tile>
+  <tile id="75">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_76.png"/>
+  </tile>
+  <tile id="76">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_77.png"/>
+  </tile>
+  <tile id="77">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_78.png"/>
+  </tile>
+  <tile id="78">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_79.png"/>
+  </tile>
+  <tile id="79">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_80.png"/>
+  </tile>
+  <tile id="80">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_82.png"/>
+  </tile>
+  <tile id="81">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_83.png"/>
+  </tile>
+  <tile id="82">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_84.png"/>
+  </tile>
+  <tile id="83">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_85.png"/>
+  </tile>
+  <tile id="84">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_86.png"/>
+  </tile>
+  <tile id="85">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_87.png"/>
+  </tile>
+  <tile id="86">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_88.png"/>
+  </tile>
+  <tile id="87">
+   <image width="44" height="80" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_89.png"/>
+  </tile>
+  <tile id="88">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_90.png"/>
+  </tile>
+  <tile id="89">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_91.png"/>
+  </tile>
+  <tile id="90">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_92.png"/>
+  </tile>
+  <tile id="91">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_93.png"/>
+  </tile>
+  <tile id="92">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_94.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="143" name="Characters" tilewidth="80" tileheight="81" tilecount="6" columns="0">
+  <tile id="0">
+   <image width="30" height="69" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art) [free add-on]/Graphical/Characters/Blacksmith/Idle/Blacksmith_idle_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="30" height="69" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art) [free add-on]/Graphical/Characters/Girl01/Idle/Girl01_idle_01.png"/>
+  </tile>
+  <tile id="2">
+   <image width="30" height="81" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art) [free add-on]/Graphical/Characters/Girl02/Idle/Girl02_idle_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="30" height="67" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art) [free add-on]/Graphical/Characters/Girl03/Idle/Girl03_idle_01.png"/>
+  </tile>
+  <tile id="4">
+   <image width="30" height="63" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Characters/Player and enemies/Protagonist/Idle/Protagonist_idle_01.png"/>
+  </tile>
+  <tile id="5">
+   <image width="80" height="64" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Characters/Player and enemies/Enemy Bandit/Idle/Bandit_idle_02.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="149" name="BuildingParts" tilewidth="94" tileheight="118" tilecount="42" columns="0">
+  <tile id="0">
+   <image width="80" height="41" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_floor.png"/>
+  </tile>
+  <tile id="1">
+   <image width="40" height="26" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_railing_front.png"/>
+  </tile>
+  <tile id="2">
+   <image width="3" height="60" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_railing_side.png"/>
+  </tile>
+  <tile id="3">
+   <image width="43" height="118" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_side.png"/>
+  </tile>
+  <tile id="4">
+   <image width="43" height="101" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_side_no_shadows.png"/>
+  </tile>
+  <tile id="5">
+   <image width="80" height="83" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_02_front.png"/>
+  </tile>
+  <tile id="6">
+   <image width="80" height="66" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_02_front_no_shadows.png"/>
+  </tile>
+  <tile id="7">
+   <image width="40" height="19" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_01.png"/>
+  </tile>
+  <tile id="8">
+   <image width="80" height="34" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_02.png"/>
+  </tile>
+  <tile id="9">
+   <image width="43" height="34" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_03.png"/>
+  </tile>
+  <tile id="10">
+   <image width="94" height="90" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Cellars/Cellar_01_metal.png"/>
+  </tile>
+  <tile id="11">
+   <image width="94" height="90" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Cellars/Cellar_02_wooden.png"/>
+  </tile>
+  <tile id="12">
+   <image width="37" height="72" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Doors/Door_01.png"/>
+  </tile>
+  <tile id="13">
+   <image width="40" height="7" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_01.png"/>
+  </tile>
+  <tile id="14">
+   <image width="40" height="7" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_02.png"/>
+  </tile>
+  <tile id="15">
+   <image width="6" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_03.png"/>
+  </tile>
+  <tile id="16">
+   <image width="6" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_04.png"/>
+  </tile>
+  <tile id="17">
+   <image width="6" height="20" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_05.png"/>
+  </tile>
+  <tile id="18">
+   <image width="16" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_06.png"/>
+  </tile>
+  <tile id="19">
+   <image width="9" height="13" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_07.png"/>
+  </tile>
+  <tile id="20">
+   <image width="8" height="11" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_08.png"/>
+  </tile>
+  <tile id="21">
+   <image width="9" height="8" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_09.png"/>
+  </tile>
+  <tile id="22">
+   <image width="6" height="10" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_10.png"/>
+  </tile>
+  <tile id="23">
+   <image width="42" height="29" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Misc/Sign_01.png"/>
+  </tile>
+  <tile id="24">
+   <image width="42" height="35" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Misc/Sign_02.png"/>
+  </tile>
+  <tile id="25">
+   <image width="40" height="71" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Misc/Sign_03.png"/>
+  </tile>
+  <tile id="26">
+   <image width="13" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Pipes/Roof_pipe_01.png"/>
+  </tile>
+  <tile id="27">
+   <image width="8" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Pipes/Roof_pipe_02.png"/>
+  </tile>
+  <tile id="28">
+   <image width="40" height="25" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Stairs/Stairs_01.png"/>
+  </tile>
+  <tile id="29">
+   <image width="28" height="37" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Roof_window_01.png"/>
+  </tile>
+  <tile id="30">
+   <image width="25" height="37" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_01.png"/>
+  </tile>
+  <tile id="31">
+   <image width="25" height="37" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_01_v2.png"/>
+  </tile>
+  <tile id="32">
+   <image width="25" height="37" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_01_v3.png"/>
+  </tile>
+  <tile id="33">
+   <image width="18" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_02.png"/>
+  </tile>
+  <tile id="34">
+   <image width="18" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_02_v2.png"/>
+  </tile>
+  <tile id="35">
+   <image width="20" height="31" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_03.png"/>
+  </tile>
+  <tile id="36">
+   <image width="20" height="31" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_03_v2.png"/>
+  </tile>
+  <tile id="37">
+   <image width="25" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_04.png"/>
+  </tile>
+  <tile id="38">
+   <image width="25" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_04_v2.png"/>
+  </tile>
+  <tile id="39">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_74.png"/>
+  </tile>
+  <tile id="40">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_76.png"/>
+  </tile>
+  <tile id="41">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_77.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="191" name="Objects" tilewidth="80" tileheight="118" tilecount="53" columns="0">
+  <tile id="0">
+   <image width="22" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="27" height="29" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01_destroyed.png"/>
+  </tile>
+  <tile id="2">
+   <image width="22" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Barrels/Barrel_01_mossy.png"/>
+  </tile>
+  <tile id="3">
+   <image width="45" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_01_green.png"/>
+  </tile>
+  <tile id="4">
+   <image width="45" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_01_yellow.png"/>
+  </tile>
+  <tile id="5">
+   <image width="49" height="54" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_02_green.png"/>
+  </tile>
+  <tile id="6">
+   <image width="49" height="54" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Bushes/Bush_02_yellow.png"/>
+  </tile>
+  <tile id="7">
+   <image width="30" height="63" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Characters/Player and enemies/Protagonist/Idle/Protagonist_idle_03.png"/>
+  </tile>
+  <tile id="8">
+   <image width="80" height="41" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_floor.png"/>
+  </tile>
+  <tile id="9">
+   <image width="40" height="26" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_railing_front.png"/>
+  </tile>
+  <tile id="10">
+   <image width="3" height="60" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_railing_side.png"/>
+  </tile>
+  <tile id="11">
+   <image width="43" height="118" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_side.png"/>
+  </tile>
+  <tile id="12">
+   <image width="43" height="101" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_01_side_no_shadows.png"/>
+  </tile>
+  <tile id="13">
+   <image width="80" height="83" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_02_front.png"/>
+  </tile>
+  <tile id="14">
+   <image width="80" height="66" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Balcony_02_front_no_shadows.png"/>
+  </tile>
+  <tile id="15">
+   <image width="40" height="19" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_01.png"/>
+  </tile>
+  <tile id="16">
+   <image width="80" height="34" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_02.png"/>
+  </tile>
+  <tile id="17">
+   <image width="43" height="34" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Balconies/Shadow_03.png"/>
+  </tile>
+  <tile id="18">
+   <image width="40" height="25" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Stairs/Stairs_01.png"/>
+  </tile>
+  <tile id="19">
+   <image width="37" height="72" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Doors/Door_01.png"/>
+  </tile>
+  <tile id="20">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_33.png"/>
+  </tile>
+  <tile id="21">
+   <image width="60" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Skeletons/Skeleton_01_v1.png"/>
+  </tile>
+  <tile id="22">
+   <image width="25" height="37" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_01_v3.png"/>
+  </tile>
+  <tile id="23">
+   <image width="25" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Windows/Window_04.png"/>
+  </tile>
+  <tile id="24">
+   <image width="40" height="7" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_01.png"/>
+  </tile>
+  <tile id="25">
+   <image width="40" height="7" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_02.png"/>
+  </tile>
+  <tile id="26">
+   <image width="6" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_03.png"/>
+  </tile>
+  <tile id="27">
+   <image width="6" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_04.png"/>
+  </tile>
+  <tile id="28">
+   <image width="6" height="20" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_05.png"/>
+  </tile>
+  <tile id="29">
+   <image width="16" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_06.png"/>
+  </tile>
+  <tile id="30">
+   <image width="9" height="13" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_07.png"/>
+  </tile>
+  <tile id="31">
+   <image width="8" height="11" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_08.png"/>
+  </tile>
+  <tile id="32">
+   <image width="9" height="8" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_09.png"/>
+  </tile>
+  <tile id="33">
+   <image width="6" height="10" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Drains/Drain_10.png"/>
+  </tile>
+  <tile id="34">
+   <image width="51" height="27" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Leaves_01.png"/>
+  </tile>
+  <tile id="35">
+   <image width="40" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Leaves_02.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Mud__01_v1.png"/>
+  </tile>
+  <tile id="37">
+   <image width="32" height="18" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Mud_01_v2.png"/>
+  </tile>
+  <tile id="38">
+   <image width="44" height="23" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_01.png"/>
+  </tile>
+  <tile id="39">
+   <image width="29" height="16" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_02.png"/>
+  </tile>
+  <tile id="40">
+   <image width="45" height="15" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Puddle_03.png"/>
+  </tile>
+  <tile id="41">
+   <image width="40" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Rocks_01_v1.png"/>
+  </tile>
+  <tile id="42">
+   <image width="40" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Decals/Rocks_01_v2.png"/>
+  </tile>
+  <tile id="43">
+   <image width="13" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Pipes/Roof_pipe_01.png"/>
+  </tile>
+  <tile id="44">
+   <image width="8" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Buildings Objects/Pipes/Roof_pipe_02.png"/>
+  </tile>
+  <tile id="45">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_33.png"/>
+  </tile>
+  <tile id="46">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_74.png"/>
+  </tile>
+  <tile id="47">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_01.png"/>
+  </tile>
+  <tile id="48">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_01_mossy.png"/>
+  </tile>
+  <tile id="49">
+   <image width="35" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_02.png"/>
+  </tile>
+  <tile id="50">
+   <image width="35" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_02_mossy.png"/>
+  </tile>
+  <tile id="51">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_03.png"/>
+  </tile>
+  <tile id="52">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_03_mossy.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="244" name="Decals" tilewidth="72" tileheight="112" tilecount="31" columns="0">
+  <tile id="0">
+   <image width="60" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Skeletons/Skeleton_01_v1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="60" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Skeletons/Skeleton_01_v2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="36" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Rocks_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="33" height="112" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Signpost_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="10.875" y="67.125" width="13.125" height="9.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <image width="22" height="84" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Totem_01.png"/>
+   <objectgroup draworder="index">
+    <object id="2" x="2.0625" y="47.1875" width="18.5625" height="13.0625"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <image width="72" height="55" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_01.png"/>
+   <objectgroup draworder="index">
+    <object id="3" x="2.25" y="36.625">
+     <polygon points="0,0 17.25,6.25 66.75,2.8125 69.6875,-4.9375 33.9375,-5.3125"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <image width="22" height="43" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_02.png"/>
+   <objectgroup draworder="index">
+    <object id="3" x="-0.625" y="33.1875">
+     <polygon points="0,0 9.6875,7.8125 24.3125,1.4375 14.125,-3.6875"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <image width="46" height="31" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_03.png"/>
+   <objectgroup draworder="index">
+    <object id="2" x="-0.3125" y="21.9375">
+     <polygon points="0,0 12.5,7.25 38.625,3.3125 46.625,-3.5625 21,-3.375"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <image width="35" height="28" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_04.png"/>
+   <objectgroup draworder="index">
+    <object id="2" x="-0.75" y="12.9375">
+     <polygon points="0,0 12.625,13 23.4375,12.875 36.3125,-0.1875 17.8125,-2.4375"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <image width="24" height="20" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Rocks/Rock_05.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="-0.9375" y="11.875">
+     <polygon points="0,0 10.3125,7.25 24.9375,-0.25 13.6875,-5.125"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <image width="25" height="26" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Flower_01.png"/>
+  </tile>
+  <tile id="11">
+   <image width="34" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Flowers_01.png"/>
+  </tile>
+  <tile id="12">
+   <image width="57" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_01.png"/>
+  </tile>
+  <tile id="13">
+   <image width="26" height="30" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_02.png"/>
+  </tile>
+  <tile id="14">
+   <image width="36" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_03.png"/>
+  </tile>
+  <tile id="15">
+   <image width="28" height="21" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_04.png"/>
+  </tile>
+  <tile id="16">
+   <image width="40" height="32" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Grass and Flowers/Grass_05.png"/>
+  </tile>
+  <tile id="17">
+   <image width="5" height="45" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_01.png"/>
+  </tile>
+  <tile id="18">
+   <image width="5" height="45" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_01_mossy.png"/>
+  </tile>
+  <tile id="19">
+   <image width="5" height="74" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_02.png"/>
+  </tile>
+  <tile id="20">
+   <image width="5" height="74" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_02_mossy.png"/>
+  </tile>
+  <tile id="21">
+   <image width="5" height="75" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_03.png"/>
+  </tile>
+  <tile id="22">
+   <image width="5" height="75" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_03_mossy.png"/>
+  </tile>
+  <tile id="23">
+   <image width="5" height="71" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_04.png"/>
+  </tile>
+  <tile id="24">
+   <image width="5" height="71" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_04_mossy.png"/>
+  </tile>
+  <tile id="25">
+   <image width="5" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_05.png"/>
+  </tile>
+  <tile id="26">
+   <image width="5" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_05_mossy.png"/>
+  </tile>
+  <tile id="27">
+   <image width="24" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_gate_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="-0.4375" y="21.75" width="25.3125" height="6"/>
+   </objectgroup>
+  </tile>
+  <tile id="28">
+   <image width="23" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence/Fence_gate_01_mossy.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="-1.4375" y="22" width="26.375" height="6.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="29">
+   <image width="30" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence farm/Fence_farm_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="-1.9375" y="20.5" width="33.0625" height="7.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <image width="54" height="44" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Fences/Fence farm/Fence_farm_gate_01.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="-1.6875" y="18.125" width="58.1875" height="9.5625"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="275" name="Collision" tilewidth="40" tileheight="40" spacing="1" tilecount="2" columns="2">
+  <image source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Collision.png" width="81" height="40"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="40" height="40"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="277" name="trees" tilewidth="204" tileheight="304" tilecount="10" columns="0">
+  <tile id="0">
+   <image width="44" height="39" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Broken_tree_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="27" height="50" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Broken_tree_02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="204" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_green.png"/>
+  </tile>
+  <tile id="3">
+   <image width="184" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_green_without_leaves.png"/>
+  </tile>
+  <tile id="4">
+   <image width="204" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_yellow.png"/>
+  </tile>
+  <tile id="5">
+   <image width="184" height="304" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_01_yellow_without_leaves.png"/>
+  </tile>
+  <tile id="6">
+   <image width="185" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_green.png"/>
+  </tile>
+  <tile id="7">
+   <image width="21" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_green_without_leaves.png"/>
+  </tile>
+  <tile id="8">
+   <image width="185" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_yellow.png"/>
+  </tile>
+  <tile id="9">
+   <image width="21" height="274" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Trees/Tree_02_yellow_without_leaves.png"/>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="64" height="48">
+  <properties>
+   <property name="unity:sortingLayerName" value="Tiles"/>
+  </properties>
+  <data encoding="csv">
+25,25,7,7,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,1,7,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,7,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,8,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,7,25,25,25,25,25,25,25,25,25,7,7,7,25,25,25,25,25,25,25,25,25,25,25,7,7,25,1,75,75,75,75,75,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,7,25,25,24,58,58,58,58,58,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,7,25,25,25,8,58,61,58,58,61,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,
+25,25,25,25,7,7,7,7,7,7,25,25,25,25,25,25,25,7,25,25,25,25,25,25,7,25,25,25,25,1,61,58,58,58,58,25,25,25,25,25,25,25,25,25,25,7,7,7,7,7,25,25,25,25,25,25,7,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,22,9,2,9,23,25,25,25,25,25,25,25,25,25,25,25,7,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,1,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,75,75,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,4,77,77,77,77,77,25,24,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,62,62,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,11,50,50,50,52,50,25,1,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,7,25,25,25,25,25,25,
+25,25,25,62,62,75,75,75,75,25,25,25,25,25,25,25,25,25,25,25,25,25,25,50,51,50,53,50,25,1,25,25,25,79,79,79,79,79,79,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,
+25,25,25,62,62,75,75,75,75,25,25,25,7,25,25,25,25,25,25,25,25,25,7,7,22,2,9,2,9,11,16,25,25,62,62,62,62,62,62,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,
+25,25,25,62,62,62,62,62,62,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,7,11,11,11,7,62,56,55,62,62,62,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,7,7,7,25,25,25,25,25,25,
+25,25,25,62,62,62,62,62,62,75,75,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,7,11,11,11,11,11,56,62,56,55,62,62,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,
+25,25,75,62,62,62,62,62,62,75,75,7,15,9,9,16,25,25,25,25,25,25,25,7,7,7,11,11,11,11,11,11,11,11,11,11,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,
+25,25,62,62,62,62,75,75,75,62,62,7,24,25,25,22,9,9,9,9,9,9,9,9,9,11,11,11,11,11,11,11,11,11,11,11,11,16,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,
+25,15,115,62,62,62,75,75,62,115,115,7,8,25,25,25,25,25,25,25,7,7,7,7,7,11,11,11,11,11,11,11,11,11,11,11,11,11,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,
+25,8,7,115,115,62,62,62,62,15,9,9,23,25,25,25,25,25,7,7,25,15,5,25,7,11,11,11,11,11,11,11,11,11,11,11,11,11,16,7,7,7,25,25,25,25,25,25,25,25,25,25,7,7,7,7,25,25,25,25,25,25,25,25,
+15,23,25,7,7,115,62,62,115,1,25,25,25,25,25,25,25,7,25,25,25,22,12,7,15,11,11,11,11,11,11,11,11,11,11,11,11,11,11,7,11,7,7,25,25,25,25,25,25,25,25,25,25,7,7,7,25,25,7,25,25,25,25,25,
+22,8,25,7,7,7,115,115,7,1,25,25,25,25,25,25,25,25,25,25,25,7,7,15,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,16,7,11,7,25,25,25,25,25,25,25,25,25,7,7,25,7,25,25,7,25,25,25,25,25,
+25,22,9,9,9,9,9,9,9,23,25,25,25,25,25,25,25,25,25,7,7,6,3,5,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,16,7,7,79,79,79,79,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,
+25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,7,6,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,7,7,51,51,51,51,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,6,7,7,15,11,11,11,11,11,11,11,11,11,36,36,36,11,11,11,11,11,11,11,11,16,11,51,51,51,51,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,7,7,4,7,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,2,16,23,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,7,15,11,11,11,11,19,11,11,11,26,11,11,11,11,11,11,11,11,11,26,11,11,11,11,11,11,7,22,23,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,7,11,11,11,11,11,12,22,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,16,7,7,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,
+25,25,7,7,25,25,25,25,25,25,25,25,25,7,7,7,25,11,11,11,11,11,7,7,11,11,11,11,11,11,11,11,11,26,11,11,11,11,11,11,11,11,11,11,9,2,2,5,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,
+25,25,25,7,7,25,25,25,7,7,25,25,25,7,7,7,6,22,11,11,11,11,16,7,22,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,23,7,7,25,8,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,
+25,25,25,25,7,25,25,25,25,7,25,25,25,7,7,7,12,7,7,7,7,11,25,25,7,7,7,22,11,11,11,11,11,11,19,77,77,77,77,77,11,23,7,7,7,7,25,22,9,2,2,5,25,25,25,25,7,7,25,7,25,7,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,7,15,9,9,9,2,9,2,23,7,7,7,25,25,7,7,22,11,11,19,77,77,77,77,77,77,77,7,7,7,7,7,11,25,18,25,25,25,8,25,25,25,25,25,25,25,25,25,7,25,25,
+25,25,25,25,25,25,7,25,25,25,25,25,25,25,1,7,6,7,7,7,25,7,25,25,7,7,7,25,7,7,7,1,7,77,77,77,77,77,77,77,7,7,25,25,25,25,25,25,25,25,25,1,25,25,25,25,25,25,25,25,25,7,25,25,
+25,25,25,25,25,25,7,7,25,25,25,25,7,7,24,75,75,75,75,75,25,25,25,25,25,25,25,25,25,25,7,8,7,77,77,51,51,51,51,51,25,25,25,25,25,25,25,25,25,25,25,1,25,25,25,25,25,25,25,25,7,25,25,25,
+25,25,25,25,25,25,25,7,25,25,25,25,25,7,1,75,75,75,75,75,25,25,25,25,25,6,25,25,25,25,25,1,25,51,51,51,51,51,51,51,7,7,7,25,25,25,25,25,25,25,25,1,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,7,7,25,7,7,25,25,25,25,15,23,63,63,63,63,63,25,25,25,25,25,25,25,25,25,25,25,8,25,51,51,51,51,51,51,51,25,25,25,25,25,25,25,25,25,25,25,8,25,25,25,25,4,25,25,25,25,25,25,25,
+25,25,25,25,25,7,25,25,25,25,25,25,7,1,7,63,63,63,63,63,25,25,25,38,45,36,45,25,25,25,25,22,9,51,51,51,51,51,51,51,25,25,25,25,25,25,25,25,25,25,25,17,2,2,9,9,16,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,7,8,7,63,63,63,63,63,25,25,15,48,36,44,43,25,25,25,25,25,25,115,115,115,115,112,112,115,152,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,8,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,22,9,2,2,9,9,16,7,7,1,46,36,45,44,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,1,25,67,67,67,25,25,25,
+25,25,25,25,25,25,7,25,25,25,25,25,25,25,7,6,25,25,25,8,7,25,8,29,34,45,40,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,8,25,64,57,64,9,9,16,
+25,25,7,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,22,9,9,23,25,25,25,7,7,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,8,25,65,64,65,25,25,7,
+25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,17,9,23,25,25,25,25,7,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,7,7,7,7,7,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,7,27,7,
+25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,7,7,7,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,7,7,
+25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,7,7,7,7,7,7,7,7,7,7,25,25,25,25,25,7,7,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,7,7,7,25,25,25,7,7,7,7,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,7,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,7,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,25,25,7,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,25,25,25,25,25,25,7,7,25,25,25,25,25,25,25,25,25,25,25,25,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,7,7,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25
+</data>
+ </layer>
+ <layer name="Ground_Overlay" width="64" height="48">
+  <properties>
+   <property name="unity:sortingLayerName" value="Tiles"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,141,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,142,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,141,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,142,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,142,123,0,0,119,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,82,142,123,0,0,123,123,82,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,82,82,0,141,120,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,82,142,123,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,82,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup draworder="index" name="Decals">
+  <properties>
+   <property name="unity:sortingLayerName" value="Decals"/>
+  </properties>
+  <object id="995" name="LeafPile" gid="228" x="457.75" y="685" width="32" height="18"/>
+  <object id="998" gid="190" x="439.818" y="680" width="41.8182" height="21.4545"/>
+  <object id="1012" gid="233" x="1304" y="665" width="40" height="39"/>
+  <object id="1013" gid="233" x="1436" y="1009" width="40" height="39"/>
+  <object id="1014" gid="233" x="1076" y="841" width="40" height="39"/>
+  <object id="1015" gid="246" x="2217.33" y="1500.67" width="30" height="17.3333"/>
+  <object id="1016" gid="225" x="1417" y="711" width="51" height="27"/>
+  <object id="1017" gid="228" x="1124" y="1123" width="32" height="18"/>
+  <object id="1018" gid="246" x="2118.36" y="1461.45" width="36" height="32"/>
+  <object id="1019" gid="225" x="1037" y="695" width="51" height="27"/>
+  <object id="1020" gid="246" x="1198" y="1356" width="30" height="22"/>
+  <object id="1021" gid="246" x="1985.03" y="1306.91" width="36" height="32"/>
+  <object id="1022" gid="246" x="2273.33" y="1541.33" width="30" height="17.3333"/>
+  <object id="1023" gid="233" x="1114" y="1037" width="40" height="39"/>
+  <object id="1024" gid="246" x="1018" y="906" width="30" height="22"/>
+  <object id="1025" gid="246" x="1413" y="910" width="30" height="22"/>
+  <object id="1026" gid="233" x="1620" y="1067" width="40" height="39"/>
+  <object id="1028" gid="209" x="1160.39" y="863.86" width="40" height="25"/>
+  <object id="1029" gid="149" x="1161.33" y="839" width="38.6667" height="26"/>
+  <object id="1030" gid="199" x="1199.89" y="855.86" width="116" height="43.5"/>
+  <object id="1034" gid="244" x="1211.77" y="909.455" width="60" height="46"/>
+  <object id="1035" gid="244" x="1308.18" y="889.97" width="60" height="46" rotation="-147.121"/>
+  <object id="1033" gid="204" x="1198.89" y="910.86" width="120" height="83"/>
+  <object id="1031" gid="211" x="1247.39" y="861.86" width="20" height="20.5"/>
+  <object id="1032" gid="209" x="1249.39" y="861.36" width="16" height="16.5"/>
+ </objectgroup>
+ <objectgroup draworder="index" name="BuildingParts">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="1" gid="181" x="647" y="1400" width="25" height="37"/>
+  <object id="2" gid="181" x="728" y="1401" width="25" height="37"/>
+  <object id="3" gid="181" x="1036" y="410" width="25" height="37"/>
+  <object id="4" gid="181" x="1240" y="170" width="25" height="37"/>
+  <object id="5" gid="181" x="1440" y="514" width="25" height="37"/>
+  <object id="6" gid="181" x="1504" y="510" width="25" height="37"/>
+  <object id="8" gid="2147483820" x="558.5" y="1295" width="42" height="29"/>
+  <object id="9" gid="161" x="963" y="439" width="37" height="72"/>
+  <object id="10" gid="161" x="1362" y="560" width="37" height="72"/>
+  <object id="11" gid="174" x="1298" y="591" width="40" height="71"/>
+  <object id="12" gid="172" x="1120" y="396" width="42" height="29"/>
+  <object id="14" gid="151" x="1358.39" y="1439.64" width="3" height="160"/>
+  <object id="15" gid="151" x="1438.39" y="1440.3" width="3" height="199.333"/>
+  <object id="16" gid="151" x="1519.06" y="1440.3" width="3" height="199.333"/>
+  <object id="17" gid="151" x="1597.06" y="1438.97" width="3" height="199.333"/>
+  <object id="18" gid="151" x="1399.06" y="1440.3" width="3" height="197.333"/>
+  <object id="19" gid="179" x="1462.67" y="1355.33" width="37" height="55.6667"/>
+  <object id="20" gid="179" x="1542.67" y="1354" width="37" height="55.6667"/>
+  <object id="21" gid="181" x="1369.33" y="1360.67" width="25" height="37"/>
+  <object id="22" gid="181" x="1328" y="1360.67" width="25" height="37"/>
+  <object id="23" gid="163" x="1322.67" y="1285.67" width="74.6667" height="7"/>
+  <object id="24" gid="163" x="1397.33" y="1247" width="202.667" height="7"/>
+  <object id="25" gid="174" x="1272.36" y="1346.03" width="40" height="71"/>
+  <object id="149" gid="174" x="496" y="587" width="40" height="71"/>
+  <object id="150" name="Deck" gid="152" x="439" y="685.667" width="43" height="118"/>
+  <object id="159" gid="186" x="389.333" y="630.333" width="25" height="18"/>
+  <object id="168" gid="187" x="266" y="723.5" width="25" height="18"/>
+  <object id="169" gid="187" x="147.5" y="594.5" width="25" height="18"/>
+  <object id="170" gid="187" x="147" y="480" width="25" height="18"/>
+  <object id="202" gid="165" x="234.333" y="640.333" width="6" height="40"/>
+  <object id="203" gid="165" x="234.667" y="680.333" width="6" height="40"/>
+  <object id="204" gid="165" x="234.333" y="725.333" width="6" height="44.6667"/>
+  <object id="205" gid="169" x="233" y="733.708" width="6.33333" height="8.70833"/>
+  <object id="206" gid="186" x="86" y="629" width="25" height="18"/>
+  <object id="207" gid="161" x="1319" y="239" width="37" height="72"/>
+  <object id="379" gid="154" x="1799.58" y="956.561" width="80" height="83"/>
+  <object id="380" gid="177" x="1800" y="963.5" width="40" height="25"/>
+  <object id="382" gid="149" x="1801.5" y="937.5" width="75" height="38.5"/>
+  <object id="384" gid="161" x="1806.5" y="900" width="26.5" height="50.5"/>
+  <object id="383" gid="150" x="1838" y="938" width="40" height="26"/>
+  <object id="386" gid="2147483821" x="1678" y="896" width="42" height="35"/>
+  <object id="387" gid="186" x="1729" y="876" width="25" height="18"/>
+  <object id="388" gid="186" x="1766" y="876" width="25" height="18"/>
+  <object id="420" gid="186" x="2366" y="1521.67" width="25" height="18"/>
+  <object id="421" gid="187" x="2404" y="1521" width="25" height="18"/>
+  <object id="424" gid="161" x="2324.67" y="1560" width="30.3333" height="56.6667"/>
+ </objectgroup>
+ <objectgroup draworder="index" name="Gallows">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="31" gid="201" x="1158.39" y="858.86" width="3" height="72.5"/>
+  <object id="34" gid="200" x="1160.89" y="812.86" width="40" height="26"/>
+  <object id="35" gid="201" x="1314.89" y="848.36" width="3" height="60"/>
+  <object id="38" gid="200" x="1234.95" y="812.917" width="40" height="26"/>
+  <object id="36" gid="200" x="1274.89" y="812.86" width="40" height="26"/>
+  <object id="42" gid="150" x="1200" y="813" width="35" height="26"/>
+  <object id="44" gid="188" x="1178.67" y="853" width="40" height="40">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-100"/>
+   </properties>
+  </object>
+  <object id="50" gid="188" x="1272.67" y="853.5" width="40" height="40">
+   <properties>
+    <property name="unity:sortingOrder" type="int" value="-100"/>
+   </properties>
+  </object>
+  <object id="57" gid="255" x="1311.5" y="922" width="34" height="32"/>
+  <object id="1057" gid="150" x="1201.6" y="894.027" width="62.2727" height="26"/>
+  <object id="1058" gid="150" x="1252.93" y="893.875" width="63.7102" height="26"/>
+ </objectgroup>
+ <objectgroup draworder="index" name="RandomObjects">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="62" gid="247" x="862.5" y="763" width="33" height="112"/>
+  <object id="83" gid="246" x="884" y="1393" width="30" height="22"/>
+  <object id="85" gid="255" x="1086" y="1420" width="34" height="32"/>
+  <object id="86" gid="255" x="623" y="1510" width="34" height="32"/>
+  <object id="87" gid="255" x="862" y="1156" width="34" height="32"/>
+  <object id="88" gid="257" x="944" y="1206" width="26" height="30"/>
+  <object id="89" gid="257" x="1063" y="1250" width="26" height="30"/>
+  <object id="90" gid="255" x="838" y="1247" width="34" height="32"/>
+  <object id="91" gid="261" x="881" y="1144" width="5" height="45"/>
+  <object id="92" gid="274" x="980" y="1539" width="54" height="44"/>
+  <object id="93" gid="274" x="1029" y="1538" width="54" height="44"/>
+  <object id="94" gid="274" x="931" y="1381" width="54" height="44"/>
+  <object id="95" gid="274" x="980" y="1381" width="54" height="44"/>
+  <object id="96" gid="274" x="1029" y="1382" width="54" height="44"/>
+  <object id="97" gid="269" x="917" y="1418" width="5" height="44"/>
+  <object id="98" gid="269" x="918" y="1464" width="5" height="44"/>
+  <object id="99" gid="272" x="758" y="1217" width="23" height="44"/>
+  <object id="100" gid="272" x="735" y="1214" width="23" height="44"/>
+  <object id="101" gid="272" x="713" y="1216" width="23" height="44"/>
+  <object id="102" gid="272" x="690" y="1215" width="23" height="44"/>
+  <object id="103" gid="272" x="1293" y="1416" width="23" height="44"/>
+  <object id="104" gid="271" x="646" y="1496" width="24" height="44"/>
+  <object id="105" gid="271" x="659" y="1498" width="24" height="44"/>
+  <object id="106" gid="271" x="678" y="1497" width="24" height="44"/>
+  <object id="107" gid="265" x="641" y="1194" width="5" height="75"/>
+  <object id="108" gid="255" x="601" y="1222" width="34" height="32"/>
+  <object id="109" gid="255" x="460" y="1459.33" width="34" height="32"/>
+  <object id="110" gid="255" x="812" y="1520" width="34" height="32"/>
+  <object id="111" gid="255" x="800" y="1434" width="34" height="32"/>
+  <object id="112" gid="266" x="1235" y="1230" width="5" height="75"/>
+  <object id="113" gid="271" x="880" y="1058" width="24" height="44"/>
+  <object id="114" gid="271" x="926" y="1059" width="24" height="44"/>
+  <object id="115" gid="272" x="904" y="1056" width="23" height="44"/>
+  <object id="116" gid="273" x="1440" y="618.333" width="30" height="44"/>
+  <object id="117" gid="273" x="1042" y="582" width="30" height="44"/>
+  <object id="118" gid="273" x="1047" y="498.5" width="30" height="44"/>
+  <object id="119" gid="273" x="1257" y="999.5" width="30" height="44"/>
+  <object id="120" gid="265" x="1075.5" y="1146" width="5" height="75"/>
+  <object id="121" gid="265" x="1469.83" y="627" width="5" height="75"/>
+  <object id="122" gid="265" x="1346" y="1010" width="5" height="75"/>
+  <object id="123" gid="265" x="1639" y="1185" width="5" height="75"/>
+  <object id="124" gid="273" x="1286.5" y="1000" width="30" height="44"/>
+  <object id="125" gid="273" x="1316" y="1000.5" width="30" height="44"/>
+  <object id="126" gid="249" x="1106.42" y="1220.94" width="72" height="55"/>
+  <object id="127" gid="251" x="746.697" y="957.424" width="46" height="31"/>
+  <object id="128" gid="250" x="937.485" y="721" width="22" height="43"/>
+  <object id="129" gid="252" x="1083" y="265.515" width="35" height="28"/>
+  <object id="130" gid="252" x="1983" y="923.091" width="35" height="28"/>
+  <object id="131" gid="249" x="464" y="1054.27" width="72" height="55"/>
+  <object id="132" gid="254" x="633.455" y="1070.58" width="25" height="26"/>
+  <object id="134" gid="254" x="1636.48" y="1264.52" width="25" height="26"/>
+  <object id="135" gid="254" x="1639.52" y="849.364" width="25" height="26"/>
+  <object id="136" gid="254" x="1478.91" y="985.727" width="25" height="26"/>
+  <object id="137" gid="255" x="1095.12" y="1076.61" width="34" height="32"/>
+  <object id="138" gid="255" x="955.727" y="985.697" width="34" height="32"/>
+  <object id="139" gid="255" x="1189.06" y="694.788" width="34" height="32"/>
+  <object id="140" gid="255" x="1504.21" y="788.727" width="34" height="32"/>
+  <object id="141" gid="263" x="1507.09" y="667.303" width="5" height="74"/>
+  <object id="142" gid="262" x="1146.48" y="318.97" width="5" height="45"/>
+  <object id="143" gid="262" x="1149.52" y="164.424" width="5" height="45"/>
+  <object id="144" gid="262" x="1231.33" y="461.394" width="5" height="45"/>
+  <object id="145" gid="271" x="688" y="612.909" width="24" height="44"/>
+  <object id="146" gid="271" x="554.667" y="573.515" width="24" height="44"/>
+  <object id="208" gid="197" x="1536.61" y="708.818" width="49" height="54"/>
+  <object id="211" gid="197" x="554.788" y="751.242" width="49" height="54"/>
+  <object id="212" gid="196" x="1182.06" y="1275.48" width="49" height="54"/>
+  <object id="213" gid="196" x="972.97" y="1266.39" width="49" height="54"/>
+  <object id="214" gid="195" x="1253.76" y="491.697" width="45" height="44"/>
+  <object id="215" gid="194" x="829.515" y="476.545" width="45" height="44"/>
+  <object id="216" gid="194" x="793.152" y="479.576" width="45" height="44"/>
+  <object id="217" gid="194" x="1417.39" y="264.424" width="45" height="44"/>
+  <object id="218" gid="196" x="839.636" y="1411.85" width="49" height="54"/>
+  <object id="219" gid="196" x="336.606" y="984.576" width="49" height="54"/>
+  <object id="220" gid="196" x="1933.58" y="1484.58" width="49" height="54"/>
+  <object id="221" gid="196" x="1963.88" y="1439.12" width="49" height="54"/>
+  <object id="222" gid="194" x="1862.85" y="1512.91" width="45" height="44"/>
+  <object id="223" gid="194" x="1962.85" y="585.636" width="45" height="44"/>
+  <object id="224" gid="194" x="1999.21" y="506.848" width="45" height="44"/>
+  <object id="225" gid="256" x="1790.18" y="1455.39" width="57" height="32"/>
+  <object id="226" gid="256" x="1862.91" y="1446.3" width="57" height="32"/>
+  <object id="227" gid="256" x="2093.21" y="664.485" width="57" height="32"/>
+  <object id="228" gid="256" x="338.667" y="1309.94" width="57" height="32"/>
+  <object id="229" gid="256" x="259.879" y="1116" width="57" height="32"/>
+  <object id="230" gid="257" x="1838.52" y="1442.27" width="26" height="30"/>
+  <object id="231" gid="257" x="1902.15" y="1481.67" width="26" height="30"/>
+  <object id="232" gid="257" x="1965.79" y="1363.48" width="26" height="30"/>
+  <object id="233" gid="257" x="2032.45" y="645.303" width="26" height="30"/>
+  <object id="234" gid="257" x="1953.67" y="551.364" width="26" height="30"/>
+  <object id="235" gid="257" x="2002.15" y="551.364" width="26" height="30"/>
+  <object id="236" gid="259" x="1943.58" y="555.455" width="28" height="21"/>
+  <object id="237" gid="259" x="1970" y="599.333" width="28" height="21"/>
+  <object id="238" gid="259" x="2012" y="596" width="28" height="21"/>
+  <object id="239" gid="255" x="1949" y="595.333" width="34" height="32"/>
+  <object id="240" gid="255" x="1995.67" y="595.333" width="34" height="32"/>
+  <object id="241" gid="255" x="2033.67" y="660.667" width="34" height="32"/>
+  <object id="242" gid="255" x="2077" y="666.667" width="34" height="32"/>
+  <object id="243" gid="255" x="2060.33" y="650" width="34" height="32"/>
+  <object id="244" gid="255" x="1935" y="560" width="34" height="32"/>
+  <object id="245" gid="255" x="2000.33" y="559.333" width="34" height="32"/>
+  <object id="246" gid="255" x="1981" y="546" width="34" height="32"/>
+  <object id="247" gid="255" x="1977" y="516" width="34" height="32"/>
+  <object id="248" gid="255" x="1552.33" y="710.667" width="34" height="32"/>
+  <object id="249" gid="255" x="1635" y="856" width="34" height="32"/>
+  <object id="250" gid="255" x="1617.67" y="1274.67" width="34" height="32"/>
+  <object id="251" gid="255" x="1860.33" y="1454.67" width="34" height="32"/>
+  <object id="252" gid="255" x="1840" y="1480" width="34" height="32"/>
+  <object id="253" gid="255" x="1880" y="1480" width="34" height="32"/>
+  <object id="254" gid="255" x="1924.33" y="1502.67" width="34" height="32"/>
+  <object id="255" gid="255" x="1920" y="1480" width="34" height="32"/>
+  <object id="256" gid="255" x="1920" y="1440" width="34" height="32"/>
+  <object id="257" gid="255" x="1960" y="1440" width="34" height="32"/>
+  <object id="258" gid="255" x="1960" y="1480" width="34" height="32"/>
+  <object id="259" gid="255" x="1920" y="1480" width="34" height="32"/>
+  <object id="260" gid="255" x="1960" y="1480" width="34" height="32"/>
+  <object id="261" gid="255" x="1920" y="1400" width="34" height="32"/>
+  <object id="262" gid="255" x="1960" y="1400" width="34" height="32"/>
+  <object id="263" gid="255" x="2000" y="1440" width="34" height="32"/>
+  <object id="264" gid="255" x="2000" y="1480" width="34" height="32"/>
+  <object id="265" gid="255" x="2009.67" y="1392" width="34" height="32"/>
+  <object id="266" gid="255" x="1895" y="1413.33" width="34" height="32"/>
+  <object id="267" gid="255" x="1868.33" y="1429.33" width="34" height="32"/>
+  <object id="268" gid="255" x="1933.67" y="1426.67" width="34" height="32"/>
+  <object id="269" gid="255" x="1940.33" y="1414.67" width="34" height="32"/>
+  <object id="270" gid="255" x="1905.67" y="1426.67" width="34" height="32"/>
+  <object id="271" gid="255" x="1901.67" y="1485.33" width="34" height="32"/>
+  <object id="272" gid="255" x="1821.67" y="1490.67" width="34" height="32"/>
+  <object id="273" gid="255" x="1847" y="1512" width="34" height="32"/>
+  <object id="274" gid="255" x="1888.33" y="1530.67" width="34" height="32"/>
+  <object id="275" gid="255" x="1903" y="1513.33" width="34" height="32"/>
+  <object id="276" gid="255" x="1931" y="1518.67" width="34" height="32"/>
+  <object id="277" gid="255" x="1963" y="1510.67" width="34" height="32"/>
+  <object id="278" gid="255" x="2008.33" y="1529.33" width="34" height="32"/>
+  <object id="279" gid="255" x="2012.33" y="1530.67" width="34" height="32"/>
+  <object id="280" gid="255" x="2004.33" y="1504" width="34" height="32"/>
+  <object id="281" gid="255" x="2027" y="1497.33" width="34" height="32"/>
+  <object id="282" gid="255" x="2033.67" y="1485.33" width="34" height="32"/>
+  <object id="283" gid="255" x="2031" y="1470.67" width="34" height="32"/>
+  <object id="284" gid="255" x="2023" y="1453.33" width="34" height="32"/>
+  <object id="285" gid="255" x="2012.33" y="1453.33" width="34" height="32"/>
+  <object id="286" gid="255" x="1989.67" y="1477.33" width="34" height="32"/>
+  <object id="287" gid="255" x="1985.67" y="1504" width="34" height="32"/>
+  <object id="288" gid="255" x="1948.33" y="1536" width="34" height="32"/>
+  <object id="289" gid="255" x="1933.67" y="1536" width="34" height="32"/>
+  <object id="290" gid="255" x="1916.33" y="1537.33" width="34" height="32"/>
+  <object id="291" gid="255" x="1901.67" y="1545.33" width="34" height="32"/>
+  <object id="292" gid="255" x="1887" y="1548" width="34" height="32"/>
+  <object id="293" gid="255" x="1855" y="1541.33" width="34" height="32"/>
+  <object id="294" gid="255" x="1832.33" y="1540" width="34" height="32"/>
+  <object id="295" gid="255" x="1815" y="1544" width="34" height="32"/>
+  <object id="296" gid="255" x="1807" y="1552" width="34" height="32"/>
+  <object id="297" gid="255" x="1793.67" y="1560" width="34" height="32"/>
+  <object id="298" gid="255" x="1809.67" y="1568" width="34" height="32"/>
+  <object id="299" gid="255" x="1860.33" y="1542.67" width="34" height="32"/>
+  <object id="300" gid="255" x="1889.67" y="1542.67" width="34" height="32"/>
+  <object id="301" gid="255" x="1941.67" y="1557.33" width="34" height="32"/>
+  <object id="302" gid="255" x="1951" y="1556" width="34" height="32"/>
+  <object id="303" gid="255" x="1963" y="1550.67" width="34" height="32"/>
+  <object id="304" gid="255" x="1976.33" y="1528" width="34" height="32"/>
+  <object id="305" gid="255" x="1988.33" y="1530.67" width="34" height="32"/>
+  <object id="306" gid="255" x="2019" y="1542.67" width="34" height="32"/>
+  <object id="307" gid="255" x="2044.33" y="1558.67" width="34" height="32"/>
+  <object id="308" gid="255" x="2057.67" y="1528" width="34" height="32"/>
+  <object id="309" gid="255" x="2061.67" y="1506.67" width="34" height="32"/>
+  <object id="310" gid="255" x="2020.33" y="1509.33" width="34" height="32"/>
+  <object id="311" gid="255" x="2015" y="1501.33" width="34" height="32"/>
+  <object id="312" gid="255" x="2063" y="1462.67" width="34" height="32"/>
+  <object id="313" gid="255" x="2067" y="1458.67" width="34" height="32"/>
+  <object id="314" gid="255" x="2037.67" y="1446.67" width="34" height="32"/>
+  <object id="315" gid="255" x="2013.67" y="1438.67" width="34" height="32"/>
+  <object id="316" gid="255" x="2001.67" y="1389.33" width="34" height="32"/>
+  <object id="317" gid="255" x="1983" y="1376" width="34" height="32"/>
+  <object id="318" gid="255" x="987" y="1252" width="34" height="32"/>
+  <object id="319" gid="255" x="959" y="1257.33" width="34" height="32"/>
+  <object id="320" gid="255" x="955" y="1257.33" width="34" height="32"/>
+  <object id="321" gid="255" x="955" y="1277.33" width="34" height="32"/>
+  <object id="322" gid="255" x="997.667" y="1292" width="34" height="32"/>
+  <object id="323" gid="255" x="996.333" y="1284" width="34" height="32"/>
+  <object id="324" gid="255" x="961.667" y="1285.33" width="34" height="32"/>
+  <object id="325" gid="255" x="1157.67" y="1268" width="34" height="32"/>
+  <object id="326" gid="255" x="1187" y="1285.33" width="34" height="32"/>
+  <object id="327" gid="255" x="1191" y="1296" width="34" height="32"/>
+  <object id="328" gid="255" x="833.667" y="1410.67" width="34" height="32"/>
+  <object id="329" gid="255" x="849.667" y="1418.67" width="34" height="32"/>
+  <object id="330" gid="255" x="872.333" y="1398.67" width="34" height="32"/>
+  <object id="331" gid="255" x="620.333" y="1516" width="34" height="32"/>
+  <object id="332" gid="255" x="320.333" y="1314.67" width="34" height="32"/>
+  <object id="333" gid="255" x="377.667" y="1317.33" width="34" height="32"/>
+  <object id="334" gid="255" x="275" y="1106.67" width="34" height="32"/>
+  <object id="335" gid="255" x="365.667" y="985.333" width="34" height="32"/>
+  <object id="336" gid="255" x="316.333" y="984" width="34" height="32"/>
+  <object id="339" gid="255" x="164.333" y="776" width="34" height="32"/>
+  <object id="341" gid="255" x="120.333" y="760" width="34" height="32"/>
+  <object id="342" gid="255" x="89.6667" y="733.333" width="34" height="32"/>
+  <object id="343" gid="255" x="81.6667" y="708" width="34" height="32"/>
+  <object id="344" gid="255" x="115" y="733.333" width="34" height="32"/>
+  <object id="345" gid="255" x="225.667" y="814.667" width="34" height="32"/>
+  <object id="346" gid="255" x="169.667" y="766.667" width="34" height="32"/>
+  <object id="350" gid="255" x="456.333" y="1050.67" width="34" height="32"/>
+  <object id="351" gid="255" x="489.667" y="1077.33" width="34" height="32"/>
+  <object id="352" gid="255" x="732.333" y="964" width="34" height="32"/>
+  <object id="353" gid="255" x="941.667" y="725.333" width="34" height="32"/>
+  <object id="354" gid="254" x="924" y="729" width="25" height="26"/>
+  <object id="355" gid="254" x="561.333" y="757" width="25" height="26"/>
+  <object id="356" gid="254" x="346.667" y="987.667" width="25" height="26"/>
+  <object id="358" gid="254" x="1917.33" y="1463.67" width="25" height="26"/>
+  <object id="359" gid="254" x="1990.67" y="1469" width="25" height="26"/>
+  <object id="360" gid="254" x="1894.67" y="1534.33" width="25" height="26"/>
+  <object id="361" gid="254" x="1929.33" y="1513" width="25" height="26"/>
+  <object id="362" gid="254" x="1826.67" y="1525" width="25" height="26"/>
+  <object id="363" gid="254" x="1845.33" y="1474.33" width="25" height="26"/>
+  <object id="364" gid="254" x="2041.33" y="1525" width="25" height="26"/>
+  <object id="365" gid="254" x="2065.33" y="1482.33" width="25" height="26"/>
+  <object id="366" gid="254" x="1969.33" y="926.333" width="25" height="26"/>
+  <object id="367" gid="255" x="1981.67" y="933.333" width="34" height="32"/>
+  <object id="368" gid="255" x="1509.67" y="578.667" width="34" height="32"/>
+  <object id="369" gid="255" x="1529.67" y="580" width="34" height="32"/>
+  <object id="370" gid="255" x="1091" y="456" width="34" height="32"/>
+  <object id="371" gid="255" x="1184.33" y="252" width="34" height="32"/>
+  <object id="372" gid="255" x="1377.67" y="256" width="34" height="32"/>
+  <object id="373" gid="254" x="1352" y="255.667" width="25" height="26"/>
+  <object id="375" gid="254" x="1554.67" y="563.667" width="25" height="26"/>
+  <object id="376" gid="254" x="1524" y="691.667" width="25" height="26"/>
+  <object id="378" gid="255" x="863" y="738.667" width="34" height="32"/>
+  <object id="389" gid="238" x="1883" y="912" width="34" height="40"/>
+  <object id="390" gid="239" x="1891" y="933" width="34" height="40"/>
+  <object id="398" gid="225" x="1657" y="1007" width="51" height="27"/>
+  <object id="400" gid="228" x="1166" y="523" width="32" height="18"/>
+  <object id="401" gid="239" x="969" y="518" width="34" height="40"/>
+  <object id="402" gid="239" x="1613" y="606" width="34" height="40"/>
+  <object id="403" gid="212" x="1962" y="1511" width="60" height="46"/>
+  <object id="405" gid="212" x="89.3333" y="761.667" width="60" height="46"/>
+  <object id="348" name="Grass" gid="256" x="100.242" y="748.06" width="57" height="32"/>
+  <object id="210" name="Bush" gid="197" x="143" y="756.546" width="49" height="54"/>
+  <object id="404" gid="212" x="163" y="780.083" width="60" height="46"/>
+  <object id="347" name="Grass" gid="256" x="145.333" y="790.667" width="57" height="32"/>
+  <object id="340" gid="255" x="131" y="786.667" width="34" height="32"/>
+  <object id="349" gid="194" x="186" y="775.333" width="45" height="44"/>
+  <object id="337" gid="255" x="207" y="788" width="34" height="32"/>
+  <object id="357" gid="254" x="212" y="805" width="25" height="26"/>
+  <object id="338" gid="255" x="173.667" y="800" width="34" height="32"/>
+  <object id="406" gid="209" x="600" y="1440" width="39.5" height="25"/>
+  <object id="407" gid="209" x="640" y="1439.5" width="39.5" height="25"/>
+  <object id="408" gid="209" x="680" y="1439" width="39.5" height="25"/>
+  <object id="409" gid="209" x="720.5" y="1439" width="39.5" height="25"/>
+  <object id="410" gid="209" x="760.5" y="1439" width="39.5" height="25"/>
+  <object id="411" gid="201" x="638" y="1440.67" width="3" height="120.667"/>
+  <object id="412" gid="201" x="678.333" y="1440.33" width="3" height="120.667"/>
+  <object id="413" gid="201" x="718.333" y="1439.67" width="3" height="120.667"/>
+  <object id="414" gid="201" x="758.333" y="1440" width="3" height="120.667"/>
+  <object id="415" gid="2147483850" x="557" y="1437" width="43" height="118"/>
+  <object id="428" gid="255" x="2429" y="1579.33" width="34" height="32"/>
+  <object id="429" gid="255" x="2397.67" y="1589.33" width="34" height="32"/>
+  <object id="427" gid="2147483808" x="2458.33" y="1617" width="60" height="57.3333"/>
+  <object id="430" gid="255" x="2435" y="1602.67" width="34" height="32"/>
+  <object id="432" gid="256" x="2389.33" y="1610" width="57" height="32"/>
+  <object id="434" gid="260" x="2438" y="1560" width="40" height="32"/>
+  <object id="437" gid="258" x="2410" y="1584.67" width="36" height="32"/>
+  <object id="438" gid="258" x="2377.33" y="1600.67" width="36" height="32"/>
+  <object id="439" gid="258" x="2365.33" y="1578" width="36" height="32"/>
+  <object id="440" gid="255" x="2355" y="1576.67" width="34" height="32"/>
+  <object id="441" gid="255" x="2294.33" y="1567.33" width="34" height="32"/>
+  <object id="442" gid="255" x="2288.33" y="1543.33" width="34" height="32"/>
+  <object id="443" gid="255" x="2271" y="1575.33" width="34" height="32"/>
+  <object id="444" gid="255" x="2438.33" y="1539.33" width="34" height="32"/>
+  <object id="445" gid="255" x="2268.33" y="1614" width="34" height="32"/>
+  <object id="446" gid="255" x="2225" y="1582.67" width="34" height="32"/>
+  <object id="447" gid="255" x="2220.33" y="1555.33" width="34" height="32"/>
+  <object id="448" gid="255" x="2263.67" y="1504" width="34" height="32"/>
+  <object id="450" gid="246" x="2433.33" y="1600.67" width="30" height="17.3333"/>
+  <object id="451" gid="246" x="2350" y="1594" width="30" height="17.3333"/>
+  <object id="452" gid="246" x="2457.33" y="1614" width="30" height="17.3333"/>
+  <object id="455" gid="246" x="2282.67" y="1517.33" width="30" height="17.3333"/>
+  <object id="457" gid="194" x="2377.33" y="1635.33" width="45" height="44"/>
+  <object id="458" gid="195" x="2431.33" y="1629.33" width="45" height="44"/>
+  <object id="459" gid="197" x="2269.33" y="1533" width="49" height="54"/>
+  <object id="462" gid="255" x="2445" y="1582" width="34" height="32"/>
+  <object id="463" gid="255" x="2445.67" y="1590.67" width="34" height="32"/>
+  <object id="464" gid="255" x="2435.67" y="1598.67" width="34" height="32"/>
+  <object id="465" gid="255" x="2358.33" y="1690.67" width="34" height="32"/>
+  <object id="466" gid="255" x="2337" y="1638" width="34" height="32"/>
+  <object id="467" gid="255" x="2349.67" y="1635.33" width="34" height="32"/>
+  <object id="468" gid="255" x="2351" y="1630.67" width="34" height="32"/>
+  <object id="469" gid="255" x="2339.67" y="1612" width="34" height="32"/>
+  <object id="470" gid="255" x="2315.67" y="1628" width="34" height="32"/>
+  <object id="471" gid="255" x="2306.33" y="1636" width="34" height="32"/>
+  <object id="472" gid="255" x="2316.33" y="1661.33" width="34" height="32"/>
+  <object id="473" gid="255" x="2363.67" y="1650" width="34" height="32"/>
+  <object id="474" gid="255" x="2392.33" y="1650" width="34" height="32"/>
+  <object id="475" gid="255" x="2397.67" y="1646.67" width="34" height="32"/>
+  <object id="476" gid="255" x="2405.67" y="1642.67" width="34" height="32"/>
+  <object id="477" gid="255" x="2407.67" y="1637.33" width="34" height="32"/>
+  <object id="478" gid="255" x="2407.67" y="1636" width="34" height="32"/>
+  <object id="479" gid="255" x="2430.33" y="1642.67" width="34" height="32"/>
+  <object id="480" gid="255" x="2441" y="1654.67" width="34" height="32"/>
+  <object id="481" gid="255" x="2461" y="1638.67" width="34" height="32"/>
+  <object id="482" gid="255" x="2468.33" y="1637.33" width="34" height="32"/>
+  <object id="483" gid="255" x="2476.33" y="1666.67" width="34" height="32"/>
+  <object id="484" gid="255" x="2490.33" y="1670.67" width="34" height="32"/>
+  <object id="485" gid="255" x="2443" y="1665.33" width="34" height="32"/>
+  <object id="486" gid="255" x="2417.67" y="1674.67" width="34" height="32"/>
+  <object id="487" gid="255" x="2506.33" y="1550.67" width="34" height="32"/>
+  <object id="488" gid="255" x="2509.67" y="1529.33" width="34" height="32"/>
+  <object id="456" gid="196" x="2478" y="1583.67" width="49" height="54"/>
+  <object id="489" gid="255" x="2503.67" y="1522" width="34" height="32"/>
+  <object id="490" gid="255" x="2441" y="1491.33" width="34" height="32"/>
+  <object id="491" gid="256" x="2390" y="1664.67" width="57" height="32"/>
+  <object id="492" gid="256" x="2400" y="1655.33" width="57" height="32"/>
+  <object id="493" gid="256" x="2320.67" y="1668.67" width="57" height="32"/>
+  <object id="494" gid="256" x="2358.67" y="1668.67" width="57" height="32"/>
+  <object id="495" gid="256" x="2442" y="1499.33" width="57" height="32"/>
+  <object id="496" gid="256" x="2484" y="1498.67" width="57" height="32"/>
+  <object id="497" gid="256" x="2490.67" y="1646" width="57" height="32"/>
+  <object id="500" gid="255" x="1813.3" y="1128.12" width="34" height="32"/>
+  <object id="501" gid="255" x="1861.79" y="1143.27" width="34" height="32"/>
+  <object id="502" gid="255" x="1846.64" y="1122.06" width="34" height="32"/>
+  <object id="503" gid="255" x="1919.36" y="1134.18" width="34" height="32"/>
+  <object id="504" gid="255" x="1937.55" y="1212.97" width="34" height="32"/>
+  <object id="505" gid="255" x="2083" y="1243.27" width="34" height="32"/>
+  <object id="506" gid="255" x="2101.18" y="1291.76" width="34" height="32"/>
+  <object id="507" gid="255" x="2092.09" y="1343.27" width="34" height="32"/>
+  <object id="508" gid="255" x="2034.52" y="1294.79" width="34" height="32"/>
+  <object id="509" gid="255" x="2013.3" y="1325.09" width="34" height="32"/>
+  <object id="510" gid="255" x="1992.09" y="1370.55" width="34" height="32"/>
+  <object id="511" gid="255" x="2016.33" y="1400.85" width="34" height="32"/>
+  <object id="512" gid="255" x="2119.36" y="1437.21" width="34" height="32"/>
+  <object id="513" gid="255" x="2189.06" y="1312.97" width="34" height="32"/>
+  <object id="514" gid="255" x="2304.21" y="1367.52" width="34" height="32"/>
+  <object id="516" gid="246" x="2145.64" y="1531.15" width="36" height="32"/>
+  <object id="518" gid="256" x="1884.12" y="1258.42" width="57" height="32"/>
+  <object id="519" gid="256" x="2072" y="1200.85" width="57" height="32"/>
+  <object id="520" gid="256" x="2290.18" y="1316" width="57" height="32"/>
+  <object id="521" gid="256" x="2141.7" y="1491.76" width="57" height="32"/>
+  <object id="522" gid="260" x="2022.42" y="1625.09" width="40" height="32"/>
+  <object id="523" gid="260" x="2125.45" y="1561.45" width="40" height="32"/>
+  <object id="524" gid="260" x="2240.61" y="1267.52" width="40" height="32"/>
+  <object id="525" gid="260" x="2331.52" y="1216" width="40" height="32"/>
+  <object id="526" gid="260" x="2158.79" y="1134.18" width="40" height="32"/>
+  <object id="527" gid="260" x="2101.21" y="1003.88" width="40" height="32"/>
+  <object id="528" gid="260" x="1740.61" y="1388.73" width="40" height="32"/>
+  <object id="529" gid="260" x="1628.48" y="1594.79" width="40" height="32"/>
+  <object id="530" gid="257" x="2159.73" y="1433.18" width="26" height="30"/>
+  <object id="531" gid="257" x="2220.33" y="1324.09" width="26" height="30"/>
+  <object id="532" gid="257" x="1908.21" y="1260.45" width="26" height="30"/>
+  <object id="533" gid="257" x="1502.15" y="1527.12" width="26" height="30"/>
+  <object id="534" gid="257" x="1529.42" y="1642.27" width="26" height="30"/>
+  <object id="535" gid="255" x="1525.42" y="1522.06" width="34" height="32"/>
+  <object id="536" gid="255" x="1401.18" y="1461.45" width="34" height="32"/>
+  <object id="537" gid="255" x="1310.27" y="1461.45" width="34" height="32"/>
+  <object id="538" gid="255" x="1358.76" y="1446.3" width="34" height="32"/>
+  <object id="539" gid="255" x="1704.21" y="934.182" width="34" height="32"/>
+  <object id="540" gid="255" x="1910.27" y="940.242" width="34" height="32"/>
+  <object id="541" gid="255" x="2010.27" y="997.818" width="34" height="32"/>
+  <object id="542" gid="255" x="1564.82" y="619.03" width="34" height="32"/>
+  <object id="543" gid="255" x="1637.55" y="646.303" width="34" height="32"/>
+  <object id="544" gid="255" x="1661.79" y="512.97" width="34" height="32"/>
+  <object id="545" gid="255" x="1801.18" y="628.121" width="34" height="32"/>
+  <object id="546" gid="255" x="2028.45" y="728.121" width="34" height="32"/>
+  <object id="547" gid="255" x="904.212" y="509.939" width="34" height="32"/>
+  <object id="548" gid="255" x="1064.82" y="212.97" width="34" height="32"/>
+  <object id="549" gid="255" x="1813.3" y="140.242" width="34" height="32"/>
+  <object id="550" gid="255" x="1831.48" y="191.758" width="34" height="32"/>
+  <object id="551" gid="255" x="1883" y="255.394" width="34" height="32"/>
+  <object id="552" gid="255" x="1916.33" y="264.485" width="34" height="32"/>
+  <object id="553" gid="255" x="1934.52" y="225.091" width="34" height="32"/>
+  <object id="554" gid="255" x="1898.15" y="152.364" width="34" height="32"/>
+  <object id="555" gid="255" x="1922.39" y="116" width="34" height="32"/>
+  <object id="556" gid="255" x="1992.09" y="158.424" width="34" height="32"/>
+  <object id="557" gid="255" x="1995.12" y="216" width="34" height="32"/>
+  <object id="558" gid="255" x="2070.88" y="282.667" width="34" height="32"/>
+  <object id="559" gid="255" x="2098.15" y="228.121" width="34" height="32"/>
+  <object id="560" gid="255" x="2040.58" y="140.242" width="34" height="32"/>
+  <object id="561" gid="255" x="2104.21" y="158.424" width="34" height="32"/>
+  <object id="562" gid="255" x="2064.82" y="291.758" width="34" height="32"/>
+  <object id="563" gid="255" x="2140.58" y="379.636" width="34" height="32"/>
+  <object id="564" gid="255" x="2098.15" y="367.515" width="34" height="32"/>
+  <object id="565" gid="255" x="1934.52" y="349.333" width="34" height="32"/>
+  <object id="566" gid="255" x="1879.97" y="300.848" width="34" height="32"/>
+  <object id="567" gid="255" x="1949.67" y="397.818" width="34" height="32"/>
+  <object id="568" gid="255" x="2107.24" y="385.697" width="34" height="32"/>
+  <object id="569" gid="255" x="1925.42" y="267.515" width="34" height="32"/>
+  <object id="570" gid="255" x="2079.97" y="203.879" width="34" height="32"/>
+  <object id="571" gid="255" x="2149.67" y="285.697" width="34" height="32"/>
+  <object id="572" gid="255" x="2146.64" y="437.212" width="34" height="32"/>
+  <object id="573" gid="255" x="2216.33" y="385.697" width="34" height="32"/>
+  <object id="574" gid="255" x="2079.97" y="291.758" width="34" height="32"/>
+  <object id="575" gid="255" x="2113.3" y="243.273" width="34" height="32"/>
+  <object id="576" gid="255" x="2143.61" y="319.03" width="34" height="32"/>
+  <object id="577" gid="255" x="2222.39" y="519.03" width="34" height="32"/>
+  <object id="578" gid="255" x="2258.76" y="549.333" width="34" height="32"/>
+  <object id="579" gid="255" x="2328.45" y="406.909" width="34" height="32"/>
+  <object id="580" gid="255" x="2152.7" y="334.182" width="34" height="32"/>
+  <object id="581" gid="255" x="2025.42" y="312.97" width="34" height="32"/>
+  <object id="582" gid="255" x="1986.03" y="370.545" width="34" height="32"/>
+  <object id="583" gid="255" x="2158.76" y="434.182" width="34" height="32"/>
+  <object id="584" gid="255" x="2283" y="443.273" width="34" height="32"/>
+  <object id="585" gid="255" x="2255.73" y="600.848" width="34" height="32"/>
+  <object id="586" gid="255" x="2361.79" y="594.788" width="34" height="32"/>
+  <object id="587" gid="255" x="2337.55" y="561.455" width="34" height="32"/>
+  <object id="588" gid="255" x="2252.7" y="425.091" width="34" height="32"/>
+  <object id="589" gid="255" x="2328.45" y="191.758" width="34" height="32"/>
+  <object id="590" gid="255" x="2298.15" y="128.121" width="34" height="32"/>
+  <object id="591" gid="255" x="2334.52" y="264.485" width="34" height="32"/>
+  <object id="592" gid="255" x="2407.24" y="394.788" width="34" height="32"/>
+  <object id="593" gid="255" x="2476.94" y="537.212" width="34" height="32"/>
+  <object id="594" gid="255" x="2422.39" y="603.879" width="34" height="32"/>
+  <object id="595" gid="255" x="2249.67" y="525.091" width="34" height="32"/>
+  <object id="596" gid="255" x="2258.76" y="306.909" width="34" height="32"/>
+  <object id="597" gid="255" x="2252.7" y="316" width="34" height="32"/>
+  <object id="598" gid="255" x="2455.73" y="549.333" width="34" height="32"/>
+  <object id="599" gid="255" x="2455.73" y="567.515" width="34" height="32"/>
+  <object id="600" gid="256" x="2299.27" y="576.606" width="57" height="32"/>
+  <object id="601" gid="256" x="2272" y="476.606" width="57" height="32"/>
+  <object id="602" gid="256" x="2129.58" y="403.879" width="57" height="32"/>
+  <object id="603" gid="256" x="2193.21" y="564.485" width="57" height="32"/>
+  <object id="604" gid="256" x="2338.67" y="755.394" width="57" height="32"/>
+  <object id="605" gid="256" x="2381.09" y="858.424" width="57" height="32"/>
+  <object id="606" gid="256" x="2341.7" y="912.97" width="57" height="32"/>
+  <object id="607" gid="256" x="1805.33" y="273.576" width="57" height="32"/>
+  <object id="608" gid="256" x="1650.79" y="67.5152" width="57" height="32"/>
+  <object id="609" gid="256" x="1638.67" y="67.5152" width="57" height="32"/>
+  <object id="610" gid="256" x="2165.94" y="131.152" width="57" height="32"/>
+  <object id="611" gid="256" x="2505.33" y="158.424" width="57" height="32"/>
+  <object id="612" gid="256" x="2453.82" y="261.455" width="57" height="32"/>
+  <object id="613" gid="258" x="2294.12" y="149.333" width="36" height="32"/>
+  <object id="614" gid="258" x="2151.7" y="43.2727" width="36" height="32"/>
+  <object id="615" gid="258" x="2109.27" y="79.6364" width="36" height="32"/>
+  <object id="616" gid="258" x="2172.91" y="209.939" width="36" height="32"/>
+  <object id="617" gid="258" x="2321.39" y="406.909" width="36" height="32"/>
+  <object id="618" gid="258" x="2342.61" y="503.879" width="36" height="32"/>
+  <object id="619" gid="258" x="2363.82" y="603.879" width="36" height="32"/>
+  <object id="620" gid="258" x="2403.21" y="712.97" width="36" height="32"/>
+  <object id="621" gid="258" x="2415.33" y="788.727" width="36" height="32"/>
+  <object id="622" gid="258" x="2430.48" y="816" width="36" height="32"/>
+  <object id="623" gid="258" x="2442.61" y="603.879" width="36" height="32"/>
+  <object id="624" gid="258" x="2406.24" y="209.939" width="36" height="32"/>
+  <object id="625" gid="258" x="2391.09" y="158.424" width="36" height="32"/>
+  <object id="626" gid="258" x="2457.76" y="231.152" width="36" height="32"/>
+  <object id="627" gid="258" x="2485.03" y="485.697" width="36" height="32"/>
+  <object id="628" gid="258" x="2491.09" y="667.515" width="36" height="32"/>
+  <object id="629" gid="258" x="2436.55" y="831.152" width="36" height="32"/>
+  <object id="630" gid="258" x="2269.88" y="879.636" width="36" height="32"/>
+  <object id="631" gid="258" x="2124.42" y="703.879" width="36" height="32"/>
+  <object id="632" gid="258" x="1982" y="179.636" width="36" height="32"/>
+  <object id="633" gid="258" x="1891.09" y="106.909" width="36" height="32"/>
+  <object id="634" gid="258" x="1815.33" y="97.8182" width="36" height="32"/>
+  <object id="635" gid="258" x="1803.21" y="240.242" width="36" height="32"/>
+  <object id="636" gid="258" x="1766.85" y="382.667" width="36" height="32"/>
+  <object id="637" gid="258" x="1897.15" y="528.121" width="36" height="32"/>
+  <object id="638" gid="258" x="1969.88" y="631.152" width="36" height="32"/>
+  <object id="639" gid="258" x="2109.27" y="770.545" width="36" height="32"/>
+  <object id="640" gid="258" x="2221.39" y="858.424" width="36" height="32"/>
+  <object id="641" gid="258" x="2309.27" y="964.485" width="36" height="32"/>
+  <object id="642" gid="258" x="2418.36" y="1109.94" width="36" height="32"/>
+  <object id="643" gid="258" x="2436.55" y="1119.03" width="36" height="32"/>
+  <object id="644" gid="258" x="2291.09" y="885.697" width="36" height="32"/>
+  <object id="645" gid="258" x="2148.67" y="758.424" width="36" height="32"/>
+  <object id="646" gid="258" x="1882" y="440.242" width="36" height="32"/>
+  <object id="647" gid="258" x="1775.94" y="258.424" width="36" height="32"/>
+  <object id="649" gid="258" x="1594.12" y="79.6364" width="36" height="32"/>
+  <object id="650" gid="258" x="1582" y="73.5758" width="36" height="32"/>
+  <object id="651" gid="258" x="1660.79" y="464.485" width="36" height="32"/>
+  <object id="652" gid="258" x="1997.15" y="922.061" width="36" height="32"/>
+  <object id="653" gid="261" x="2143.45" y="1358.36" width="5" height="45"/>
+  <object id="654" gid="261" x="1955.58" y="1279.58" width="5" height="45"/>
+  <object id="655" gid="263" x="2216.18" y="1540.03" width="5" height="74"/>
+  <object id="656" gid="263" x="2276.79" y="1461.24" width="5" height="74"/>
+  <object id="657" gid="270" x="2246.48" y="1570.48" width="5" height="44"/>
+  <object id="658" gid="270" x="2270.73" y="1594.73" width="5" height="44"/>
+  <object id="659" gid="271" x="2378.91" y="1658.36" width="24" height="44"/>
+  <object id="660" gid="271" x="2433.45" y="1691.7" width="24" height="44"/>
+  <object id="661" gid="273" x="2042.58" y="1403.82" width="30" height="44"/>
+  <object id="662" gid="274" x="2169.97" y="1370.48" width="54" height="44"/>
+  <object id="663" gid="274" x="1966.94" y="1143.21" width="54" height="44"/>
+  <object id="664" gid="265" x="2107.09" y="1279.42" width="5" height="75"/>
+  <object id="665" gid="265" x="2143.45" y="1237" width="5" height="75"/>
+  <object id="666" gid="247" x="1753.7" y="1134.79" width="33" height="112"/>
+  <object id="667" gid="255" x="2131.48" y="1231.15" width="34" height="32"/>
+  <object id="668" gid="255" x="1755.73" y="1134.18" width="34" height="32"/>
+  <object id="669" gid="255" x="434.515" y="1812.97" width="34" height="32"/>
+  <object id="670" gid="255" x="770.879" y="1885.7" width="34" height="32"/>
+  <object id="671" gid="255" x="795.121" y="1897.82" width="34" height="32"/>
+  <object id="672" gid="255" x="664.818" y="1746.3" width="34" height="32"/>
+  <object id="673" gid="255" x="434.515" y="1670.55" width="34" height="32"/>
+  <object id="674" gid="255" x="616.333" y="1794.79" width="34" height="32"/>
+  <object id="675" gid="255" x="679.97" y="1858.42" width="34" height="32"/>
+  <object id="676" gid="255" x="552.697" y="1831.15" width="34" height="32"/>
+  <object id="677" gid="255" x="425.424" y="1788.73" width="34" height="32"/>
+  <object id="678" gid="255" x="670.879" y="1879.64" width="34" height="32"/>
+  <object id="679" gid="255" x="834.515" y="1879.64" width="34" height="32"/>
+  <object id="680" gid="255" x="1073.91" y="1876.61" width="34" height="32"/>
+  <object id="681" gid="255" x="876.939" y="1812.97" width="34" height="32"/>
+  <object id="682" gid="255" x="1204.21" y="1803.88" width="34" height="32"/>
+  <object id="683" gid="255" x="1334.52" y="1794.79" width="34" height="32"/>
+  <object id="684" gid="255" x="1346.64" y="1797.82" width="34" height="32"/>
+  <object id="685" gid="255" x="864.818" y="1788.73" width="34" height="32"/>
+  <object id="686" gid="255" x="1258.76" y="1794.79" width="34" height="32"/>
+  <object id="687" gid="255" x="1598.15" y="1816" width="34" height="32"/>
+  <object id="688" gid="255" x="1622.39" y="1819.03" width="34" height="32"/>
+  <object id="689" gid="255" x="1298.15" y="1819.03" width="34" height="32"/>
+  <object id="690" gid="255" x="1161.79" y="1819.03" width="34" height="32"/>
+  <object id="691" gid="255" x="1531.48" y="1873.58" width="34" height="32"/>
+  <object id="692" gid="255" x="1976.94" y="1776.61" width="34" height="32"/>
+  <object id="693" gid="255" x="1579.97" y="1749.33" width="34" height="32"/>
+  <object id="694" gid="255" x="1383" y="1737.21" width="34" height="32"/>
+  <object id="695" gid="255" x="1125.42" y="1706.91" width="34" height="32"/>
+  <object id="696" gid="255" x="1022.39" y="1694.79" width="34" height="32"/>
+  <object id="697" gid="255" x="1622.39" y="1816" width="34" height="32"/>
+  <object id="698" gid="255" x="1986.03" y="1822.06" width="34" height="32"/>
+  <object id="699" gid="255" x="2034.52" y="1828.12" width="34" height="32"/>
+  <object id="700" gid="255" x="1779.97" y="1828.12" width="34" height="32"/>
+  <object id="701" gid="255" x="1728.45" y="1840.24" width="34" height="32"/>
+  <object id="702" gid="255" x="1698.15" y="1867.52" width="34" height="32"/>
+  <object id="703" gid="255" x="2455.73" y="1812.97" width="34" height="32"/>
+  <object id="704" gid="255" x="2437.55" y="1816" width="34" height="32"/>
+  <object id="705" gid="255" x="2131.48" y="1858.42" width="34" height="32"/>
+  <object id="706" gid="255" x="2058.76" y="1870.55" width="34" height="32"/>
+  <object id="707" gid="255" x="2364.82" y="1882.67" width="34" height="32"/>
+  <object id="708" gid="255" x="2452.7" y="1867.52" width="34" height="32"/>
+  <object id="709" gid="255" x="2510.27" y="1876.61" width="34" height="32"/>
+  <object id="710" gid="255" x="2425.42" y="1900.85" width="34" height="32"/>
+  <object id="711" gid="255" x="2176.94" y="1855.39" width="34" height="32"/>
+  <object id="712" gid="255" x="2055.73" y="1773.58" width="34" height="32"/>
+  <object id="713" gid="255" x="1843.61" y="1776.61" width="34" height="32"/>
+  <object id="714" gid="255" x="1579.97" y="1843.27" width="34" height="32"/>
+  <object id="715" gid="255" x="1292.09" y="1840.24" width="34" height="32"/>
+  <object id="716" gid="255" x="995.121" y="1737.21" width="34" height="32"/>
+  <object id="717" gid="255" x="958.758" y="1767.52" width="34" height="32"/>
+  <object id="718" gid="255" x="783" y="1761.45" width="34" height="32"/>
+  <object id="719" gid="255" x="652.697" y="1649.33" width="34" height="32"/>
+  <object id="720" gid="255" x="355.727" y="1634.18" width="34" height="32"/>
+  <object id="721" gid="255" x="531.485" y="1719.03" width="34" height="32"/>
+  <object id="722" gid="255" x="664.818" y="1803.88" width="34" height="32"/>
+  <object id="723" gid="255" x="852.697" y="1858.42" width="34" height="32"/>
+  <object id="724" gid="255" x="904.212" y="1825.09" width="34" height="32"/>
+  <object id="725" gid="255" x="458.758" y="31.1515" width="34" height="32"/>
+  <object id="727" gid="255" x="486.03" y="176.606" width="34" height="32"/>
+  <object id="728" gid="255" x="486.03" y="216" width="34" height="32"/>
+  <object id="729" gid="255" x="558.758" y="316" width="34" height="32"/>
+  <object id="730" gid="255" x="131.485" y="1364.48" width="34" height="32"/>
+  <object id="731" gid="255" x="349.667" y="1743.27" width="34" height="32"/>
+  <object id="732" gid="255" x="404.212" y="1891.76" width="34" height="32"/>
+  <object id="733" gid="255" x="149.667" y="1522.06" width="34" height="32"/>
+  <object id="734" gid="255" x="52.697" y="1391.76" width="34" height="32"/>
+  <object id="735" gid="255" x="95.1212" y="1640.24" width="34" height="32"/>
+  <object id="736" gid="255" x="249.667" y="1858.42" width="34" height="32"/>
+  <object id="737" gid="255" x="146.636" y="1728.12" width="34" height="32"/>
+  <object id="738" gid="255" x="122.394" y="1697.82" width="34" height="32"/>
+  <object id="739" gid="255" x="161.788" y="1828.12" width="34" height="32"/>
+  <object id="740" gid="255" x="98.1515" y="1755.39" width="34" height="32"/>
+  <object id="741" gid="255" x="101.182" y="1800.85" width="34" height="32"/>
+  <object id="742" gid="255" x="89.0606" y="1909.94" width="34" height="32"/>
+  <object id="743" gid="255" x="355.727" y="1885.7" width="34" height="32"/>
+  <object id="744" gid="255" x="319.364" y="1797.82" width="34" height="32"/>
+  <object id="745" gid="255" x="137.545" y="1370.55" width="34" height="32"/>
+  <object id="746" gid="255" x="210.273" y="1470.55" width="34" height="32"/>
+  <object id="747" gid="255" x="243.606" y="1564.48" width="34" height="32"/>
+  <object id="748" gid="255" x="131.485" y="1288.73" width="34" height="32"/>
+  <object id="749" gid="255" x="113.303" y="1112.97" width="34" height="32"/>
+  <object id="750" gid="255" x="104.212" y="1100.85" width="34" height="32"/>
+  <object id="751" gid="255" x="76.9394" y="1291.76" width="34" height="32"/>
+  <object id="752" gid="255" x="183" y="1273.58" width="34" height="32"/>
+  <object id="753" gid="255" x="149.667" y="912.97" width="34" height="32"/>
+  <object id="754" gid="255" x="161.788" y="858.424" width="34" height="32"/>
+  <object id="755" gid="255" x="58.7576" y="55.3939" width="34" height="32"/>
+  <object id="756" gid="255" x="10.2727" y="143.273" width="34" height="32"/>
+  <object id="757" gid="255" x="31.4848" y="234.182" width="34" height="32"/>
+  <object id="758" gid="255" x="22.3939" y="225.091" width="34" height="32"/>
+  <object id="759" gid="255" x="134.515" y="158.424" width="34" height="32"/>
+  <object id="760" gid="255" x="176.939" y="155.394" width="34" height="32"/>
+  <object id="761" gid="255" x="310.273" y="152.364" width="34" height="32"/>
+  <object id="762" gid="255" x="340.576" y="143.273" width="34" height="32"/>
+  <object id="763" gid="255" x="367.848" y="109.939" width="34" height="32"/>
+  <object id="764" gid="255" x="513.303" y="119.03" width="34" height="32"/>
+  <object id="765" gid="255" x="513.303" y="119.03" width="34" height="32"/>
+  <object id="766" gid="255" x="689.061" y="61.4545" width="34" height="32"/>
+  <object id="767" gid="255" x="816.333" y="103.879" width="34" height="32"/>
+  <object id="768" gid="255" x="713.303" y="188.727" width="34" height="32"/>
+  <object id="769" gid="255" x="616.333" y="291.758" width="34" height="32"/>
+  <object id="770" gid="255" x="755.727" y="249.333" width="34" height="32"/>
+  <object id="771" gid="255" x="786.03" y="182.667" width="34" height="32"/>
+  <object id="772" gid="255" x="828.455" y="106.909" width="34" height="32"/>
+  <object id="773" gid="255" x="873.909" y="88.7273" width="34" height="32"/>
+  <object id="774" gid="255" x="934.515" y="64.4848" width="34" height="32"/>
+  <object id="775" gid="255" x="986.03" y="73.5758" width="34" height="32"/>
+  <object id="776" gid="255" x="816.333" y="179.636" width="34" height="32"/>
+  <object id="777" gid="255" x="722.394" y="273.576" width="34" height="32"/>
+  <object id="778" gid="255" x="719.364" y="300.848" width="34" height="32"/>
+  <object id="859" gid="196" x="1915.39" y="1745.18" width="49" height="54"/>
+  <object id="860" gid="196" x="1882.06" y="1808.82" width="49" height="54"/>
+  <object id="861" gid="196" x="1818.42" y="1827" width="49" height="54"/>
+  <object id="862" gid="196" x="1754.79" y="1823.97" width="49" height="54"/>
+  <object id="863" gid="196" x="1666.91" y="1830.03" width="49" height="54"/>
+  <object id="864" gid="196" x="1624.48" y="1833.06" width="49" height="54"/>
+  <object id="865" gid="196" x="1554.79" y="1851.24" width="49" height="54"/>
+  <object id="866" gid="196" x="1512.36" y="1863.36" width="49" height="54"/>
+  <object id="867" gid="196" x="1412.36" y="1872.45" width="49" height="54"/>
+  <object id="868" gid="196" x="1269.94" y="1872.45" width="49" height="54"/>
+  <object id="869" gid="196" x="1082.06" y="1857.3" width="49" height="54"/>
+  <object id="870" gid="196" x="915.394" y="1845.18" width="49" height="54"/>
+  <object id="871" gid="196" x="818.424" y="1851.24" width="49" height="54"/>
+  <object id="872" gid="196" x="733.576" y="1857.3" width="49" height="54"/>
+  <object id="873" gid="196" x="582.061" y="1857.3" width="49" height="54"/>
+  <object id="874" gid="196" x="454.788" y="1827" width="49" height="54"/>
+  <object id="875" gid="196" x="336.606" y="1793.67" width="49" height="54"/>
+  <object id="876" gid="196" x="266.909" y="1793.67" width="49" height="54"/>
+  <object id="877" gid="196" x="209.333" y="1787.61" width="49" height="54"/>
+  <object id="878" gid="196" x="139.636" y="1702.76" width="49" height="54"/>
+  <object id="879" gid="196" x="60.8485" y="1542.15" width="49" height="54"/>
+  <object id="880" gid="196" x="39.6364" y="1472.45" width="49" height="54"/>
+  <object id="881" gid="196" x="154.788" y="1420.94" width="49" height="54"/>
+  <object id="882" gid="196" x="333.576" y="1530.03" width="49" height="54"/>
+  <object id="883" gid="196" x="239.636" y="1239.12" width="49" height="54"/>
+  <object id="884" gid="196" x="109.333" y="1184.58" width="49" height="54"/>
+  <object id="885" gid="196" x="18.4242" y="1090.64" width="49" height="54"/>
+  <object id="886" gid="196" x="12.3636" y="1014.88" width="49" height="54"/>
+  <object id="887" gid="196" x="124.485" y="981.545" width="49" height="54"/>
+  <object id="888" gid="196" x="248.727" y="1078.52" width="49" height="54"/>
+  <object id="890" gid="196" x="518.424" y="908.818" width="49" height="54"/>
+  <object id="891" gid="196" x="633.576" y="975.485" width="49" height="54"/>
+  <object id="892" gid="196" x="2200.24" y="751.242" width="49" height="54"/>
+  <object id="893" gid="196" x="2333.58" y="811.848" width="49" height="54"/>
+  <object id="894" gid="197" x="2382.06" y="739.121" width="49" height="54"/>
+  <object id="895" gid="197" x="2315.39" y="611.848" width="49" height="54"/>
+  <object id="896" gid="197" x="2063.88" y="539.121" width="49" height="54"/>
+  <object id="897" gid="197" x="2051.76" y="427" width="49" height="54"/>
+  <object id="898" gid="197" x="2079.03" y="339.121" width="49" height="54"/>
+  <object id="899" gid="197" x="2045.7" y="311.848" width="49" height="54"/>
+  <object id="900" gid="197" x="2400.24" y="360.333" width="49" height="54"/>
+  <object id="901" gid="197" x="2436.61" y="630.03" width="49" height="54"/>
+  <object id="902" gid="197" x="2436.61" y="745.182" width="49" height="54"/>
+  <object id="903" gid="197" x="2472.97" y="851.242" width="49" height="54"/>
+  <object id="904" gid="197" x="2479.03" y="923.97" width="49" height="54"/>
+  <object id="905" gid="197" x="797.212" y="154.273" width="49" height="54"/>
+  <object id="906" gid="197" x="682.061" y="139.121" width="49" height="54"/>
+  <object id="907" gid="197" x="545.697" y="93.6667" width="49" height="54"/>
+  <object id="908" gid="197" x="457.818" y="90.6364" width="49" height="54"/>
+  <object id="909" gid="197" x="291.152" y="160.333" width="49" height="54"/>
+  <object id="910" gid="197" x="179.03" y="178.515" width="49" height="54"/>
+  <object id="911" gid="197" x="51.7576" y="257.303" width="49" height="54"/>
+  <object id="912" gid="197" x="27.5152" y="287.606" width="49" height="54"/>
+  <object id="913" gid="197" x="9.33333" y="427" width="49" height="54"/>
+  <object id="914" gid="197" x="-8.84848" y="554.273" width="49" height="54"/>
+  <object id="915" gid="254" x="1242.55" y="1791.79" width="25" height="26"/>
+  <object id="916" gid="254" x="1197.09" y="1870.58" width="25" height="26"/>
+  <object id="917" gid="254" x="1081.94" y="1861.48" width="25" height="26"/>
+  <object id="918" gid="254" x="954.667" y="1861.48" width="25" height="26"/>
+  <object id="919" gid="254" x="827.394" y="1861.48" width="25" height="26"/>
+  <object id="920" gid="254" x="751.636" y="1858.45" width="25" height="26"/>
+  <object id="921" gid="254" x="633.455" y="1840.27" width="25" height="26"/>
+  <object id="922" gid="254" x="512.242" y="1834.21" width="25" height="26"/>
+  <object id="923" gid="254" x="394.061" y="1828.15" width="25" height="26"/>
+  <object id="924" gid="254" x="330.424" y="1813" width="25" height="26"/>
+  <object id="925" gid="254" x="263.758" y="1794.82" width="25" height="26"/>
+  <object id="926" gid="254" x="188" y="1767.55" width="25" height="26"/>
+  <object id="927" gid="254" x="121.333" y="1682.7" width="25" height="26"/>
+  <object id="928" gid="254" x="72.8485" y="1637.24" width="25" height="26"/>
+  <object id="929" gid="254" x="48.6061" y="1591.79" width="25" height="26"/>
+  <object id="930" gid="254" x="48.6061" y="1540.27" width="25" height="26"/>
+  <object id="931" gid="254" x="33.4545" y="1470.58" width="25" height="26"/>
+  <object id="932" gid="254" x="30.4242" y="1413" width="25" height="26"/>
+  <object id="933" gid="254" x="27.3939" y="1373.61" width="25" height="26"/>
+  <object id="934" gid="254" x="21.3333" y="1297.85" width="25" height="26"/>
+  <object id="935" gid="254" x="12.2424" y="1249.36" width="25" height="26"/>
+  <object id="936" gid="254" x="3.15152" y="1167.55" width="25" height="26"/>
+  <object id="937" gid="254" x="27.3939" y="1158.45" width="25" height="26"/>
+  <object id="938" gid="254" x="54.6667" y="1270.58" width="25" height="26"/>
+  <object id="939" gid="254" x="72.8485" y="1394.82" width="25" height="26"/>
+  <object id="940" gid="254" x="157.697" y="1494.82" width="25" height="26"/>
+  <object id="941" gid="254" x="275.879" y="1655.42" width="25" height="26"/>
+  <object id="942" gid="254" x="366.788" y="1688.76" width="25" height="26"/>
+  <object id="943" gid="254" x="548.606" y="1731.18" width="25" height="26"/>
+  <object id="944" gid="254" x="800.121" y="1770.58" width="25" height="26"/>
+  <object id="945" gid="254" x="1003.15" y="1791.79" width="25" height="26"/>
+  <object id="946" gid="254" x="1127.39" y="1797.85" width="25" height="26"/>
+  <object id="947" gid="254" x="1215.27" y="1797.85" width="25" height="26"/>
+  <object id="948" gid="254" x="1375.88" y="1816.03" width="25" height="26"/>
+  <object id="949" gid="254" x="1554.67" y="1840.27" width="25" height="26"/>
+  <object id="950" gid="254" x="1857.7" y="1864.52" width="25" height="26"/>
+  <object id="951" gid="254" x="1966.79" y="1864.52" width="25" height="26"/>
+  <object id="952" gid="254" x="2024.36" y="1852.39" width="25" height="26"/>
+  <object id="953" gid="254" x="2045.58" y="1843.3" width="25" height="26"/>
+  <object id="954" gid="254" x="2160.73" y="1837.24" width="25" height="26"/>
+  <object id="955" gid="254" x="2266.79" y="1843.3" width="25" height="26"/>
+  <object id="964" gid="262" x="1601.03" y="1849.27" width="5" height="45"/>
+  <object id="965" gid="262" x="1885.88" y="1825.03" width="5" height="45"/>
+  <object id="966" gid="263" x="1946.48" y="1746.09" width="5" height="74"/>
+  <object id="967" gid="263" x="328.303" y="1643.06" width="5" height="74"/>
+  <object id="968" gid="263" x="34.3636" y="1512.76" width="5" height="74"/>
+  <object id="969" gid="271" x="2175.88" y="534.121" width="24" height="44"/>
+  <object id="970" gid="272" x="216.273" y="297.758" width="23" height="44"/>
+  <object id="971" gid="264" x="810.121" y="288.515" width="5" height="74"/>
+  <object id="972" gid="264" x="2485.88" y="346.091" width="5" height="74"/>
+  <object id="973" gid="264" x="710.121" y="1770.33" width="5" height="74"/>
+  <object id="974" gid="264" x="567.697" y="1788.52" width="5" height="74"/>
+  <object id="975" gid="264" x="1949.52" y="1864.27" width="5" height="74"/>
+  <object id="976" gid="274" x="2157.85" y="1634.12" width="54" height="44"/>
+  <object id="977" gid="274" x="2260.88" y="1046.24" width="54" height="44"/>
+  <object id="978" gid="274" x="1469.97" y="125.03" width="54" height="44"/>
+  <object id="979" gid="273" x="230.455" y="906.848" width="30" height="44"/>
+  <object id="648" gid="258" x="1683.27" y="198.106" width="36" height="32"/>
+  <object id="1068" gid="286" x="443.515" y="994.394" width="21" height="274"/>
+  <object id="889" gid="196" x="408.985" y="908.636" width="49" height="54"/>
+ </objectgroup>
+ <objectgroup draworder="index" name="Trees">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="839" gid="284" x="1593.03" y="1873.36" width="21" height="274"/>
+  <object id="779" gid="2147483927" x="1407.09" y="1927.76" width="204" height="304"/>
+  <object id="815" gid="281" x="1149.52" y="1785.33" width="204" height="304"/>
+  <object id="780" gid="279" x="1201.03" y="1915.64" width="204" height="304"/>
+  <object id="781" gid="2147483927" x="510.121" y="1885.33" width="204" height="304"/>
+  <object id="782" gid="279" x="204.061" y="1685.33" width="204" height="304"/>
+  <object id="811" gid="281" x="2328.3" y="327.758" width="204" height="304"/>
+  <object id="843" gid="284" x="2265.76" y="291.545" width="21" height="274"/>
+  <object id="833" gid="283" x="1959.52" y="279.424" width="185" height="274"/>
+  <object id="791" gid="280" x="2120.12" y="452" width="184" height="304"/>
+  <object id="785" gid="2147483927" x="2222.24" y="497.455" width="204" height="304"/>
+  <object id="783" gid="279" x="2191.94" y="633.818" width="204" height="304"/>
+  <object id="784" gid="279" x="2001.03" y="397.455" width="204" height="304"/>
+  <object id="786" gid="2147483927" x="264.667" y="303.515" width="204" height="304"/>
+  <object id="787" gid="279" x="452.545" y="394.424" width="204" height="304"/>
+  <object id="788" gid="2147483927" x="2349.52" y="1430.79" width="204" height="304"/>
+  <object id="850" gid="285" x="2223.15" y="1849.12" width="185" height="274"/>
+  <object id="789" gid="279" x="2134.36" y="1918.67" width="204" height="304"/>
+  <object id="790" gid="280" x="2017.09" y="627.758" width="184" height="304"/>
+  <object id="853" gid="285" x="1526.18" y="270.333" width="185" height="274"/>
+  <object id="809" gid="281" x="1663.44" y="296.197" width="204" height="304"/>
+  <object id="792" gid="280" x="1735.27" y="321.697" width="184" height="304"/>
+  <object id="793" gid="280" x="1877.7" y="364.121" width="184" height="304"/>
+  <object id="794" gid="280" x="2292.85" y="1482.3" width="184" height="304"/>
+  <object id="795" gid="280" x="2098.91" y="1394.42" width="184" height="304"/>
+  <object id="796" gid="280" x="1926.18" y="1818.67" width="184" height="304"/>
+  <object id="797" gid="280" x="2277.7" y="1952" width="184" height="304"/>
+  <object id="798" gid="280" x="1368.61" y="1967.15" width="184" height="304"/>
+  <object id="799" gid="280" x="698.909" y="1897.45" width="184" height="304"/>
+  <object id="800" gid="280" x="871.636" y="1876.24" width="184" height="304"/>
+  <object id="801" gid="280" x="259.515" y="1921.7" width="184" height="304"/>
+  <object id="802" gid="280" x="80.7273" y="1803.52" width="184" height="304"/>
+  <object id="803" gid="280" x="41.3333" y="1518.67" width="184" height="304"/>
+  <object id="804" gid="280" x="14.0606" y="1182.3" width="184" height="304"/>
+  <object id="805" gid="281" x="361.636" y="1785.33" width="204" height="304"/>
+  <object id="806" gid="281" x="94.9697" y="1906.55" width="204" height="304"/>
+  <object id="807" gid="281" x="28.303" y="1315.64" width="204" height="304"/>
+  <object id="808" gid="281" x="37.3939" y="318.667" width="204" height="304"/>
+  <object id="810" gid="281" x="1852.55" y="588.364" width="204" height="304"/>
+  <object id="812" gid="281" x="2285.88" y="906.545" width="204" height="304"/>
+  <object id="813" gid="281" x="1607.09" y="1764.12" width="204" height="304"/>
+  <object id="814" gid="281" x="667.697" y="1006.55" width="204" height="304"/>
+  <object id="816" gid="282" x="953.455" y="1936.85" width="184" height="304"/>
+  <object id="817" gid="283" x="1750.42" y="1903.67" width="185" height="274"/>
+  <object id="818" gid="283" x="1298.91" y="1773.36" width="185" height="274"/>
+  <object id="820" gid="283" x="2295.88" y="1164.27" width="185" height="274"/>
+  <object id="821" gid="283" x="2383.76" y="1903.67" width="185" height="274"/>
+  <object id="822" gid="283" x="2032.24" y="1749.12" width="185" height="274"/>
+  <object id="823" gid="283" x="1.93939" y="1788.52" width="185" height="274"/>
+  <object id="824" gid="283" x="401.939" y="1912.76" width="185" height="274"/>
+  <object id="825" gid="283" x="126.182" y="1537" width="185" height="274"/>
+  <object id="826" gid="283" x="-1.09091" y="1358.21" width="185" height="274"/>
+  <object id="827" gid="283" x="32.2424" y="1567.3" width="185" height="274"/>
+  <object id="828" gid="283" x="353.455" y="461.242" width="185" height="274"/>
+  <object id="829" gid="283" x="141.333" y="288.515" width="185" height="274"/>
+  <object id="830" gid="283" x="583.758" y="285.485" width="185" height="274"/>
+  <object id="831" gid="283" x="747.394" y="340.03" width="185" height="274"/>
+  <object id="832" gid="283" x="795.879" y="294.576" width="185" height="274"/>
+  <object id="834" gid="283" x="1908" y="412.758" width="185" height="274"/>
+  <object id="835" gid="283" x="2047.39" y="824.879" width="185" height="274"/>
+  <object id="836" gid="283" x="1635.27" y="1361.24" width="185" height="274"/>
+  <object id="837" gid="284" x="853.636" y="1894.58" width="21" height="274"/>
+  <object id="838" gid="284" x="1168.79" y="1979.42" width="21" height="274"/>
+  <object id="840" gid="284" x="1747.58" y="1915.79" width="21" height="274"/>
+  <object id="841" gid="284" x="2259.7" y="1003.67" width="21" height="274"/>
+  <object id="842" gid="284" x="2450.61" y="637" width="21" height="274"/>
+  <object id="819" gid="283" x="2387.08" y="660.212" width="185" height="274"/>
+  <object id="854" gid="285" x="2297.44" y="670.333" width="185" height="274"/>
+  <object id="844" gid="284" x="726.364" y="370.333" width="21" height="274"/>
+  <object id="845" gid="284" x="17.2727" y="549.121" width="21" height="274"/>
+  <object id="846" gid="284" x="180.909" y="1333.97" width="21" height="274"/>
+  <object id="847" gid="284" x="405.152" y="1300.64" width="21" height="274"/>
+  <object id="848" gid="284" x="1499.09" y="397.606" width="21" height="274"/>
+  <object id="849" gid="285" x="1629.21" y="1915.79" width="185" height="274"/>
+  <object id="851" gid="285" x="2032.24" y="1924.88" width="185" height="274"/>
+  <object id="852" gid="285" x="2183.76" y="1467.3" width="185" height="274"/>
+  <object id="855" gid="285" x="201.939" y="394.576" width="185" height="274"/>
+  <object id="857" gid="286" x="2226.36" y="1094.58" width="21" height="274"/>
+  <object id="858" gid="286" x="2496.06" y="1227.91" width="21" height="274"/>
+ </objectgroup>
+ <objectgroup name="Barrels_Crates">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="66" gid="191" x="803.667" y="1437.33" width="22" height="40"/>
+  <object id="67" gid="191" x="1319.5" y="874.333" width="22" height="40"/>
+  <object id="68" gid="191" x="1320" y="859.5" width="22" height="40"/>
+  <object id="69" gid="191" x="1559.67" y="552" width="22" height="40"/>
+  <object id="70" gid="191" x="897" y="437.333" width="22" height="40"/>
+  <object id="71" gid="191" x="1398.33" y="200" width="22" height="40"/>
+  <object id="72" gid="191" x="1398.33" y="234.667" width="22" height="40"/>
+  <object id="73" gid="193" x="1121" y="444" width="22" height="40"/>
+  <object id="74" gid="239" x="1560.33" y="1465.33" width="34" height="40"/>
+  <object id="75" gid="239" x="831" y="1528" width="34" height="40"/>
+  <object id="76" gid="242" x="852.333" y="1517.33" width="34" height="40"/>
+  <object id="77" gid="239" x="471.667" y="1424.67" width="34" height="40"/>
+  <object id="460" gid="191" x="2441" y="1559.33" width="22" height="40"/>
+  <object id="461" gid="191" x="2449.67" y="1575.33" width="22" height="40"/>
+ </objectgroup>
+ <objectgroup name="CellarEntrance">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="147" gid="159" x="40.8788" y="808.636" width="94" height="90"/>
+ </objectgroup>
+ <layer name="Foreground" width="64" height="48">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,75,75,75,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,75,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,62,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,79,79,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,62,62,75,75,75,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,75,75,75,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,62,62,62,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,62,62,62,62,107,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,75,0,0,62,62,62,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,75,75,75,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,67,67,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Foreground_Overlay" width="64" height="48">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,142,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,142,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,123,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Foreground_Objects">
+  <object id="981" gid="182" x="150.5" y="395.5" width="18" height="21"/>
+  <object id="982" gid="247" x="409.333" y="565.333" width="33" height="112"/>
+  <object id="996" gid="185" x="400.667" y="584.333" width="20" height="31"/>
+  <object id="999" gid="185" x="270" y="472.333" width="20" height="31"/>
+  <object id="1000" gid="175" x="307.5" y="433" width="13" height="46"/>
+  <object id="1001" gid="162" x="229.5" y="484" width="40" height="7"/>
+  <object id="1002" gid="164" x="244.5" y="521.5" width="6" height="40"/>
+  <object id="1003" gid="181" x="208.667" y="594.333" width="25.6667" height="103.667"/>
+  <object id="1004" gid="164" x="234.667" y="600.333" width="6" height="40"/>
+  <object id="1005" gid="185" x="323.333" y="472.333" width="20" height="31"/>
+  <object id="1006" gid="181" x="287.667" y="593.333" width="25.6667" height="103.667"/>
+  <object id="1007" gid="185" x="215.333" y="473.667" width="20" height="31"/>
+  <object id="1008" gid="167" x="234" y="560.5" width="16" height="40"/>
+  <object id="1009" gid="163" x="269.375" y="484" width="40" height="7"/>
+  <object id="1010" gid="163" x="309.417" y="483.958" width="53.375" height="7"/>
+  <object id="1011" gid="163" x="200.25" y="484.083" width="29.375" height="7"/>
+  <object id="1027" gid="2147483823" x="92.5" y="594.5" width="13" height="46"/>
+  <object id="1046" gid="201" x="1198.96" y="869.938" width="4.45" height="41.1875"/>
+  <object id="1050" gid="189" x="1213" y="811.667" width="99.5" height="38"/>
+  <object id="1051" gid="188" x="1272.67" y="813.833" width="40" height="40"/>
+  <object id="1052" gid="190" x="1217" y="808" width="22" height="34"/>
+  <object id="1053" name="Rope" gid="214" x="1259.34" y="786.704" width="2.44615" height="17.1769"/>
+  <object id="1054" gid="188" x="1178.67" y="813.333" width="40" height="40"/>
+  <object id="1055" name="Rope" gid="1073742038" x="1259.34" y="802.527" width="2.44615" height="19.1769"/>
+  <object id="1056" gid="2147483838" x="1285" y="808.5" width="22.5" height="34"/>
+  <object id="1069" gid="175" x="2390.67" y="1469.67" width="13" height="46"/>
+ </objectgroup>
+ <layer name="Static Tile Collision" width="64" height="48" opacity="0.37">
+  <properties>
+   <property name="unity:ignore" value="visual"/>
+  </properties>
+  <data encoding="csv">
+275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,275,275,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,
+275,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,
+275,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,
+275,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,
+275,0,0,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,
+275,0,275,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,
+275,0,275,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,
+275,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,
+275,0,0,0,0,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,0,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,0,0,0,0,0,0,0,0,0,0,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,
+275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,
+275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,
+275,275,275,275,275,275,275,275,275,275,0,0,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,0,0,0,0,0,0,0,0,0,0,0,0,0,275,275,275,275,275,
+275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,
+275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275,275
+</data>
+ </layer>
+ <objectgroup name="Static_Map_Collision">
+  <object id="989" x="85.6364" y="801.455">
+   <polygon points="0,0 -45.6364,-21.0909 -45.6364,-36.1818 50.1818,-39.6364 49.8182,-24.5455"/>
+  </object>
+  <object id="997" x="438.875" y="590.5" width="45.75" height="90"/>
+  <object id="1036" x="1157.18" y="806.364" width="5.27273" height="58.8182"/>
+  <object id="1038" x="1157.27" y="806.273" width="161.455" height="8.63636"/>
+  <object id="1039" x="1311.88" y="806.5" width="8.75" height="87.125"/>
+  <object id="1044" x="1197.13" y="838.25" width="6.25" height="54.625"/>
+  <object id="1065" x="1207.82" y="838.818" width="14.5455" height="21.4545"/>
+  <object id="1066" x="1302.82" y="838.909" width="13.6364" height="22.1818"/>
+ </objectgroup>
+</map>

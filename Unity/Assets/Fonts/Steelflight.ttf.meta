@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c64f9fe6ecfd59642991c8a8ab3ffa31
+timeCreated: 1477765794
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 8
+  forceTextureCase: 0
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Steelflight
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
