@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="40" tileheight="40" nextobjectid="53">
+ <tileset firstgid="1" name="Ground" tilewidth="80" tileheight="84" tilecount="14" columns="0">
+  <tile id="0">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_02.png"/>
+  </tile>
+  <tile id="1">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_76.png"/>
+  </tile>
+  <tile id="2">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_81.png"/>
+  </tile>
+  <tile id="3">
+   <image width="34" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Crates/Crate_03_mossy.png"/>
+  </tile>
+  <tile id="4">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_03.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_08.png"/>
+  </tile>
+  <tile id="6">
+   <image width="22" height="84" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Totem_01.png"/>
+  </tile>
+  <tile id="7">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_12.png"/>
+  </tile>
+  <tile id="8">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_14.png"/>
+  </tile>
+  <tile id="9">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_15.png"/>
+  </tile>
+  <tile id="10">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/TileSet/Tileset 2/TileSet_16.png"/>
+  </tile>
+  <tile id="11">
+   <image width="60" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Skeletons/Skeleton_01_v1.png"/>
+  </tile>
+  <tile id="12">
+   <image width="60" height="46" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Environments/Misc/Skeletons/Skeleton_01_v2.png"/>
+  </tile>
+  <tile id="13">
+   <image width="80" height="46" source="Skeletons.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="Cellar" tilewidth="40" tileheight="40" spacing="1" tilecount="49" columns="7">
+  <image source="cellar.png" width="325" height="287"/>
+ </tileset>
+ <tileset firstgid="64" name="Collision" tilewidth="40" tileheight="40" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="40" height="40" source="../Unity/Assets/Fantasy Environment and Animated Characters (Pixel Art)/Graphical/Buildings Tileset/Tileset 1/TileSet_79.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="40" height="40"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="Tiles"/>
+  </properties>
+  <data encoding="csv">
+6,6,6,8,6,6,6,6,6,6,8,6,6,6,6,6,6,6,6,9,6,6,6,6,6,6,6,6,6,6,6,6,
+6,9,6,6,6,6,9,6,10,6,6,6,8,6,6,6,6,9,6,6,6,6,10,6,6,6,9,6,6,6,6,6,
+6,6,6,10,6,6,6,6,6,20,19,19,20,20,20,19,19,20,5,19,20,20,19,9,6,10,6,6,9,6,6,6,
+10,6,6,6,6,9,6,6,6,27,26,27,26,27,27,5,27,26,27,27,27,26,26,6,6,8,6,6,6,6,6,6,
+21,21,5,21,21,21,21,20,21,1,1,1,54,15,22,1,1,1,1,1,1,22,1,8,6,6,6,6,6,6,6,8,
+26,28,28,26,28,5,26,28,28,15,1,1,61,22,29,29,30,31,32,33,1,29,1,6,6,6,6,8,6,6,6,6,
+15,15,15,1,54,1,1,1,54,22,15,1,1,29,1,36,37,38,39,40,15,1,1,9,6,6,6,6,6,6,6,6,
+22,22,22,1,61,1,1,1,61,29,22,1,1,15,1,43,44,45,46,47,22,1,1,6,6,10,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,1,29,15,15,22,1,50,51,52,53,54,29,15,1,10,6,6,9,6,6,8,6,6,
+6,6,9,6,6,6,6,6,6,1,1,22,22,29,1,57,58,59,60,61,1,22,1,6,6,6,6,6,6,6,6,6,
+8,6,6,6,6,6,10,6,6,1,15,29,29,1,1,1,1,1,1,1,1,29,1,8,6,8,6,6,6,6,6,6,
+6,6,6,6,8,6,6,9,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,8,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,10,6,6,8,6,6,6,6,6,9,6,6,6,8,6,6,6,6,6,
+6,6,10,6,6,9,6,6,6,6,9,6,6,6,6,6,6,6,6,9,6,6,6,6,6,10,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,10,6,6,6,6,8,6,6,6,6,6,6,6,10,8,6,6,6,6,6,9,6,6,8,
+6,8,6,11,6,6,8,6,6,6,6,6,6,6,6,6,9,6,6,8,6,6,6,6,8,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="unity:sortingLayerName" value="Objects"/>
+  </properties>
+  <object id="1" gid="4" x="414" y="431" width="34" height="40"/>
+  <object id="2" gid="4" x="377" y="415" width="34" height="40"/>
+  <object id="3" gid="4" x="837" y="198" width="34" height="40"/>
+  <object id="4" gid="4" x="867" y="229" width="34" height="40"/>
+  <object id="5" gid="2" x="360" y="160" width="40" height="40"/>
+  <object id="6" gid="2" x="400" y="159.833" width="40" height="40"/>
+  <object id="7" gid="2" x="440" y="159.5" width="40" height="40"/>
+  <object id="8" gid="2" x="480" y="159.333" width="40" height="40"/>
+  <object id="9" gid="2" x="319.993" y="163.179" width="73.9723" height="40" rotation="-270.425"/>
+  <object id="10" gid="2" x="520" y="159" width="40" height="40"/>
+  <object id="11" gid="2" x="608.438" y="166.394" width="40" height="40" rotation="-12.0237"/>
+  <object id="12" gid="2" x="639" y="159" width="40" height="40"/>
+  <object id="13" gid="2" x="679" y="159" width="40" height="40"/>
+  <object id="14" gid="2" x="719" y="158.5" width="40" height="40"/>
+  <object id="15" gid="2" x="880.5" y="158.5" width="40" height="40"/>
+  <object id="16" gid="2" x="808.397" y="165.975" width="40" height="40" rotation="-12.3255"/>
+  <object id="17" gid="2" x="843.167" y="158.667" width="40" height="40"/>
+  <object id="18" gid="2" x="281.021" y="242.746" width="40" height="40" rotation="-4.2056"/>
+  <object id="19" gid="2" x="200.279" y="239.553" width="40" height="40" rotation="3.10691"/>
+  <object id="20" gid="2" x="119.667" y="239.167" width="40" height="40"/>
+  <object id="21" gid="2" x="162.667" y="239.667" width="40" height="40"/>
+  <object id="22" gid="2" x="82.632" y="242.032" width="40" height="40" rotation="-4.05776"/>
+  <object id="23" gid="2" x="-6.58832" y="239.356" width="40" height="40" rotation="7.99831"/>
+  <object id="24" gid="2" x="317.5" y="240" width="40" height="40"/>
+  <object id="25" gid="2" x="122.985" y="163.179" width="74.9722" height="40" rotation="-270.425"/>
+  <object id="26" gid="2" x="523.667" y="83.1594" width="74.6587" height="40" rotation="-270.425"/>
+  <object id="27" gid="2" x="323.993" y="83.1792" width="73.9723" height="40" rotation="-270.425"/>
+  <object id="28" gid="2" x="802.993" y="82.1792" width="75.9771" height="40" rotation="-270.425"/>
+  <object id="29" gid="2" x="605.993" y="83.1792" width="73.9723" height="40" rotation="-270.425"/>
+  <object id="30" gid="7" x="605.333" y="401" width="22" height="84">
+   <properties>
+    <property name="unity:sortingOrder" value="-145"/>
+   </properties>
+  </object>
+  <object id="31" gid="7" x="734" y="413" width="22" height="84">
+   <properties>
+    <property name="unity:sortingOrder" value="-145"/>
+   </properties>
+  </object>
+  <object id="32" gid="7" x="790" y="311" width="22" height="84">
+   <properties>
+    <property name="unity:sortingOrder" value="-145"/>
+   </properties>
+  </object>
+  <object id="33" gid="7" x="609.333" y="296" width="22" height="84">
+   <properties>
+    <property name="unity:sortingOrder" value="-145"/>
+   </properties>
+  </object>
+  <object id="34" gid="7" x="721" y="248.667" width="22" height="84">
+   <properties>
+    <property name="unity:sortingOrder" value="-145"/>
+   </properties>
+  </object>
+  <object id="37" gid="12" x="706" y="530" width="60" height="46"/>
+  <object id="39" gid="12" x="28" y="392" width="60" height="46"/>
+  <object id="41" gid="13" x="468" y="623" width="60" height="46"/>
+  <object id="42" gid="12" x="172" y="615" width="60" height="46"/>
+  <object id="43" gid="13" x="215" y="508" width="60" height="46"/>
+  <object id="44" gid="12" x="174" y="65" width="60" height="46"/>
+  <object id="45" gid="13" x="259.611" y="135.726" width="60" height="46" rotation="9.51254"/>
+ </objectgroup>
+ <layer name="Collision" width="32" height="16">
+  <properties>
+   <property name="unity:ignore" value="visual"/>
+  </properties>
+  <data encoding="csv">
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64
+</data>
+ </layer>
+ <layer name="Foreground" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
