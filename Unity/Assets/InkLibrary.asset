@@ -36,6 +36,105 @@ MonoBehaviour:
     errors: []
     warnings: []
     todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 20f3e677d4b103f48a543c0d5d0fdda2, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: a6606c2918d05f141b8ffeb85bdf5342, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: aea538c8f6b002341909ac5c9d1f414e, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: af345d0ed764726458df9de3087cb1e6, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 58cfcfda21b794948b3d396e13881a63, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: e0e5a8a0b52100f4695aa0f581678d03, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 098abfdb0c7f8cb478dc94acdde817ee, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 83dd9e4b0a7adb54eb7c83e9faa7618b, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: b3e8cd3d486b8dc408de67eceacc84ac, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 55e10c1630d24cb41bb2dae09cfc4523, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: a9a7ba50ede5cc04a8381bba2e3beece, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 6c57de7daf262154ca5ce734b8bdf18c, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 90a90533e064f8a499ce4b9183fd32c7, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 3bdb16243d2fa894696649ad2ddbcb1b, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: e1e5c3389b1d09b46b1a6eaf03549c9d, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 90ebd9de176b8c149abf0ff98bcd4b9e, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 050b8a5f4ae71444fbbd5178253d0a8c, type: 3}
+    parent: {fileID: 0}
+    master: {fileID: 0}
+    includePaths: []
+    includes: []
+    jsonAsset: {fileID: 4900000, guid: 9ea885639cb278340af48811ea17af7d, type: 3}
+    compileErrors: []
+    errors: []
+    warnings: []
+    todos: []
   compilationStack: []
   customInklecateName: 
   runInklecateWithMono: 0
